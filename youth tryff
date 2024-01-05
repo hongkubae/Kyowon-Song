@@ -571,7 +571,8 @@ color: 'black';
  lineHeight: 19;
  wordWrap: 'break-word'
 
-//레시피 등록 전 페이지
+
+//재료 등록 전 페이지
 
 <div style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
     <div className="Rectangle170" style={{width: 360, height: 605, left: 0, top: 36, position: 'absolute', background: '#F8F9FA'}} />
@@ -672,8 +673,89 @@ color: 'black';
     </div>
 </div>
 
-//레시피 재료 등록
+//스타일
+// 요리 이름
+color: '#9C9C9C';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 필요한 재료
+color: '#9C9C9C';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 다음
+color: '#FEA655';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 사진 추가
+color: '#9C9C9C';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 뒤로가기
+color: '#CCCCCC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 조리시간
+color: '#9C9C9C';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 난이도
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 쉬워요
+color: 'black';
+ fontSize: 10;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 냉장고
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 레시피
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 북마크
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
 
+
+//레시피 재료 카테고리
 <div style={{width: '100%', height: '100%', position: 'relative', background: 'white'}}>
     <div className="Frame5149" style={{left: 0, top: 36, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
         <div className="Rectangle170" style={{width: 360, height: 4146, background: '#F8F9FA'}} />
@@ -1267,3 +1349,3395 @@ color: 'black';
         </div>
     </div>
 </div>
+
+//스타일 
+
+// 채소
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 해산물
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 햄/소시지
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 빵/떡
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 표고버섯
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 과일
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 곡물
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 유제품
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 콩/견과류
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 면
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 트러플
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 고기류
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 부침가루
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 가래떡
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 조미료/양념
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 체다치즈
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 애호박
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 미트볼
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 명란젓갈
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 우동면
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 다시마
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 초고추장
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 올리고당
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 검은콩
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 아몬드
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 트러플
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 대파
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 가지
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 비트
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 오이
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 식빵
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 스팸
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 오렌지
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 닭고기
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 복숭아
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 까나리<br/>액젓
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 돈까스<br/>소스
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 홍합
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 감자
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 당면
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 소라
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 토마토<br/>소스
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 갈치
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 전복
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 명태
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 계란
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 레몬
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 포도
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 간장
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 소금
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 굴
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 감
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 칼국수면
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 블루베리
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 메추리알
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 돼지고기
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 양배추
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 콩나물
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 떡국떡
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 베이컨
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 모닝빵
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 빵가루
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 올리브유
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 건새우
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 고구마
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 완두콩
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 트러플<br/>소금
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 마늘
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 고추
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 상추
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 호박
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 건포도
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 고추장
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 쇠고기<br/>다시다
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 깨소금
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 대합
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 아귀
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 라면
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 전어
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 핫소스
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 문어
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 꼬막
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 햄
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 망고
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 자두
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 된장
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 물엿
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 깨
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 춘장
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 양송이버섯
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 떡볶이떡
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 샐러리
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 토마토
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 비엔나<br/>소시지
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 모짜렐라 <br/>치즈
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 고춧가루
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 마요네즈
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 도다리
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 칠리소스
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 개맛살
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 옥수수
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 짜장가루
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 트러플<br/>오일
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 김치
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 숙주
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 소고기
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 어묵
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 귀리
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 소면
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 조개
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 두부
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 미역
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 꽁치
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 무
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 메론
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 체리
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 사과
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 미원
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 식초
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 콩
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 후추
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 귤
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 꿀
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 파프리카
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 찹쌀가루
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 시금치
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 바게트
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 소시지
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 머스타드<br/>소스
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 다진마늘
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 옥수수콘
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 카레가루
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 수제비
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 고등어
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 누룽지
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 바지락
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 배추
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 깻잎
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 양파
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 양고기
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 바나나
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 굴소스
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 동태
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 연어
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 조기
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 땅콩
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 호두
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 참기름
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 꽃게
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 수박
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 딸기
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 키위
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 버터
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 쌈장
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 스파게티면
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 브로콜리
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 아스<br/>파라거스
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 팽이버섯
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 오리고기
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 베이글
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 파인애플
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 아보카도
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 굵은소금
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 데리야끼<br/>소스
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 멸치액젓
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 오징어
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 골뱅이
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 쭈꾸미
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 밀가루
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 순두부
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 당근
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 열무
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 순대
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 통밀
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 오징어<br/>젓갈
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 멸치
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 요거트
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 청국장
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 새우
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 낙지
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 라임
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 설탕
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 케첩
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 배
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 냉장고
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 레시피
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 북마크
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 검색
+color: '#9C9C9C';
+ fontSize: 14;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 총
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 2
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 개의 재료 추가하기
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+
+
+//내 레시피 재료추가 확인
+<div style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
+    <div style={{width: 360, height: 36, left: 0, top: 0, position: 'absolute'}}>
+        <div style={{left: 0, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: '#D4D4D4', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>냉장고</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #D4D4D4 solid'}}></div>
+            </div>
+        </div>
+        <div style={{left: 120, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>레시피</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #FEA655 solid'}}></div>
+            </div>
+        </div>
+        <div style={{left: 240, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: '#D4D4D4', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>북마크</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #D4D4D4 solid'}}></div>
+            </div>
+        </div>
+        <div style={{width: 12, height: 12, left: 214, top: 24, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0'}}>
+            <div className="Ellipse26" style={{width: 12, height: 12, left: 0, top: 0, position: 'absolute', background: 'rgba(217, 217, 217, 0)', border: '0.80px #FEA655 solid'}}></div>
+            <div style={{width: 1.33, height: 6.67, left: 5.33, top: 2.67, position: 'absolute', background: '#FEA655'}}></div>
+        </div>
+    </div>
+    <div className="NavigationBar" style={{width: 360, height: 59, left: 0, top: 581, position: 'absolute', background: 'white', borderTopLeftRadius: 15, borderTopRightRadius: 15, overflow: 'hidden', border: '0.50px #CCCCCC solid', justifyContent: 'center', alignItems: 'center', gap: 30, display: 'inline-flex'}}>
+        <div className="HomeIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Shape" style={{width: 30.14, height: 31, border: '1.50px #111111 solid'}}></div>
+        </div>
+        <div className="CalIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Shape" style={{width: 27, height: 29.49, border: '1.40px black solid'}}></div>
+        </div>
+        <div className="RecipeCion" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Group2630" style={{width: 31, height: 31, position: 'relative'}}>
+                <div className="Vector5" style={{width: 14.09, height: 25.01, left: 0, top: 5.41, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 0, height: 16.73, left: 4.88, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Vector14" style={{width: 4.34, height: 15.72, left: 4.88, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 0, height: 16.73, left: 9.21, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 14.09, height: 8.11, left: 0, top: 0, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 14.20, height: 28.97, left: 30.73, top: 31, position: 'absolute', transform: 'rotate(-179.53deg)', transformOrigin: '0 0', background: 'black', border: '1.50px black solid'}}></div>
+            </div>
+        </div>
+        <div className="SettingIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Group2480" style={{width: 32.50, height: 32.50, position: 'relative', transform: 'rotate(-180deg)', transformOrigin: '0 0'}}>
+                <div className="Ellipse29" style={{width: 26.90, height: 26.90, left: -29.70, top: -2.80, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector49" style={{width: 7.28, height: 3.92, left: -12.61, top: -0, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector53" style={{width: 7.27, height: 4.08, left: -25.08, top: -2.10, position: 'absolute', transform: 'rotate(-135deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector56" style={{width: 7.28, height: 3.77, left: -7.25, top: -30.24, position: 'absolute', transform: 'rotate(45deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector54" style={{width: 7.27, height: 4.08, left: -2.28, top: -7.24, position: 'absolute', transform: 'rotate(135deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector55" style={{width: 7.28, height: 3.77, left: -30.40, top: -25.09, position: 'absolute', transform: 'rotate(-45deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector50" style={{width: 7.28, height: 3.92, left: -19.89, top: -32.50, position: 'absolute', border: '1.50px black solid'}}></div>
+                <div className="Vector51" style={{width: 7.56, height: 4.08, left: 0, top: -20.01, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector52" style={{width: 7.28, height: 3.92, left: -32.50, top: -12.61, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Ellipse30" style={{width: 13.45, height: 13.45, left: -9.53, top: -9.53, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+            </div>
+        </div>
+    </div>
+    <div className="Rectangle169" style={{width: 205, height: 7, left: 89, top: 574, position: 'absolute', background: '#DBDBDB', borderTopLeftRadius: 5, borderTopRightRadius: 5}} />
+    <div style={{width: 112, height: 34, left: 55, top: 507, position: 'absolute'}}>
+        <div className="Rectangle235" style={{width: 112, height: 34, left: 0, top: 0, position: 'absolute', background: 'rgba(217, 217, 217, 0)', borderRadius: 25, border: '1px #CCCCCC solid'}} />
+        <div style={{width: 82, height: 34, left: 16, top: 0, position: 'absolute', textAlign: 'center', color: '#CCCCCC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>뒤로가기</div>
+    </div>
+    <div style={{left: 195, top: 507, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{width: 112, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, background: '#FEA655', borderRadius: 25, overflow: 'hidden', border: '1px #FEA655 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+            <div style={{textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>완료</div>
+        </div>
+    </div>
+    <div style={{left: 33, top: 93, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div className="Rectangle207" style={{width: 298, height: 63, background: '#F8F9FA', boxShadow: '1px 2px 4px rgba(0, 0, 0, 0.26)', borderRadius: 15}} />
+        <div className="Frame5153" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 21, display: 'inline-flex'}}>
+            <div className="Frame5151" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Ellipse85" style={{width: 50, height: 50, background: 'white', borderRadius: 9999}} />
+                <img className="1" style={{width: 32, height: 32}} src="https://via.placeholder.com/32x32" />
+            </div>
+            <div style={{width: 116, color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>재료 이름름</div>
+            <div className="Frame5154" style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                <div className="Frame5152" style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 1, display: 'inline-flex'}}>
+                    <div className="Nnn" style={{width: 38, textAlign: 'right', color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>nnn</div>
+                    <div className="G" style={{width: 29, textAlign: 'center', color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>g</div>
+                    <div className="Vector61" style={{width: 10.15, height: 13, border: '1px #BCBCBC solid'}}></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+//스타일
+
+// 냉장고
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 레시피
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 북마크
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 뒤로가기
+color: '#CCCCCC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 완료
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 재료 이름름
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// nnn
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// g
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+
+
+//재료 양 설정 팝업
+<div style={{width: '100%', height: '100%', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+    <div className="Rectangle241" style={{width: 304, height: 159, background: '#F8F9FA', borderRadius: 10}} />
+    <div className="Frame5157" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 138, display: 'inline-flex'}}>
+        <div style={{width: 119.07, height: 20.78, color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>재료 양 설정</div>
+        <div className="Vector49" style={{width: 13, height: 13, border: '1.20px black solid'}}></div>
+    </div>
+    <div className="Frame5158" style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
+        <div className="Frame5095" style={{width: 75, height: 23, background: 'rgba(255, 255, 255, 0)', borderBottom: '0.80px #878787 solid', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+            <div style={{width: 99, textAlign: 'center', color: '#BCBCBC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>1</div>
+        </div>
+        <div className="Frame5156" style={{justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+            <div style={{textAlign: 'center', color: 'black', fontSize: 13, fontFamily: 'NanumGothic', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, letterSpacing: 1.50, wordWrap: 'break-word'}}>단위 선택</div>
+            <div style={{width: 18, height: 18, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                <div className="Frame5047" style={{width: 18, height: 18, position: 'relative', background: 'rgba(255, 255, 255, 0)', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{width: 11, height: 5, background: 'black'}}></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="Frame5159" style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 35, display: 'inline-flex'}}>
+        <div style={{width: 95, height: 30, position: 'relative'}}>
+            <div className="Rectangle235" style={{width: 95, height: 30, left: 0, top: 0, position: 'absolute', background: 'rgba(217, 217, 217, 0)', borderRadius: 25, border: '1px #FEA655 solid'}} />
+            <div style={{width: 69.55, height: 30, left: 13.57, top: 0, position: 'absolute', textAlign: 'center', color: '#FEA655', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>재료 추가</div>
+        </div>
+        <div style={{width: 95, height: 30, position: 'relative'}}>
+            <div className="Rectangle235" style={{width: 95, height: 30, left: 0, top: 0, position: 'absolute', background: 'rgba(217, 217, 217, 0)', borderRadius: 25, border: '1px #FEA655 solid'}} />
+            <div style={{width: 69.55, height: 30, left: 13.57, top: 0, position: 'absolute', textAlign: 'center', color: '#FEA655', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>완료</div>
+        </div>
+    </div>
+</div>
+
+//스타일
+// 재료 양 설정
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 1
+color: '#BCBCBC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 단위 선택
+color: 'black';
+ fontSize: 13;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ textTransform: 'uppercase';
+ lineHeight: 12;
+ letterSpacing: 1.50;
+ wordWrap: 'break-word'
+---
+// 재료 추가
+color: '#FEA655';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 완료
+color: '#FEA655';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+
+
+//조리시간 팝업
+<div className="Frame5162" style={{width: '100%', height: '100%', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+    <div className="Rectangle241" style={{width: 304, height: 159, background: '#F8F9FA', borderRadius: 10}} />
+    <div className="Frame5161" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 140, display: 'inline-flex'}}>
+        <div style={{width: 119.07, height: 20.78, color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>요리 소요 시간</div>
+        <div className="Frame5157" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 138, display: 'flex'}}>
+            <div className="Vector49" style={{width: 13, height: 13, border: '1.20px black solid'}}></div>
+        </div>
+    </div>
+    <div className="Frame5160" style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 17, display: 'inline-flex'}}>
+        <div className="Frame5157" style={{width: 75, height: 23, background: 'rgba(255, 255, 255, 0)', borderBottom: '0.80px #878787 solid', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+            <div style={{width: 99, textAlign: 'center', color: '#BCBCBC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>0</div>
+        </div>
+        <div style={{textAlign: 'center', color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>시간</div>
+        <div className="Frame5159" style={{width: 75, height: 23, background: 'rgba(255, 255, 255, 0)', borderBottom: '0.80px #878787 solid', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+            <div style={{width: 99, textAlign: 'center', color: '#BCBCBC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>30</div>
+        </div>
+        <div style={{textAlign: 'center', color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>분</div>
+    </div>
+    <div style={{width: 95, height: 30, position: 'relative'}}>
+        <div className="Rectangle235" style={{width: 95, height: 30, left: 0, top: 0, position: 'absolute', background: 'rgba(217, 217, 217, 0)', borderRadius: 25, border: '1px #FEA655 solid'}} />
+        <div style={{width: 69.55, height: 30, left: 13.57, top: 0, position: 'absolute', textAlign: 'center', color: '#FEA655', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>완료</div>
+    </div>
+</div>
+
+//스타일
+// 요리 소요 시간
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 0
+color: '#BCBCBC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 시간
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 30
+color: '#BCBCBC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 분
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 완료
+color: '#FEA655';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+
+
+//재료 등록 후, 과정 작성 전
+<div style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
+    <div className="Rectangle173" style={{width: 112, height: 125, left: 227, top: 393, position: 'absolute', background: 'white', borderRadius: 10}} />
+    <img className="Rectangle139" style={{width: 324, height: 139, left: 18, top: 55, position: 'absolute', borderRadius: 7}} src="https://via.placeholder.com/324x139" />
+    <div className="Rectangle171" style={{width: 90, height: 38, left: 21, top: 206, position: 'absolute', background: 'white', borderRadius: 10}} />
+    <div style={{width: 139, height: 24, left: 27, top: 213, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>닭볶음탕</div>
+    <div className="Rectangle140" style={{width: 193, height: 265, left: 23, top: 256, position: 'absolute', background: 'white', borderRadius: 10}} />
+    <div className="Rectangle172" style={{width: 112, height: 128, left: 227, top: 253, position: 'absolute', background: 'white', borderRadius: 10}} />
+    <div style={{width: 48, height: 84, left: 289, top: 284, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>분</div>
+    <div style={{width: 57, height: 84, left: 229, top: 284, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 20, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>30</div>
+    <div className="Line39" style={{width: 77, height: 0, left: 27, top: 239, position: 'absolute', border: '1px #FEA655 solid'}}></div>
+    <img className="Image79" style={{width: 24, height: 24, left: 35, top: 265, position: 'absolute'}} src="https://via.placeholder.com/24x24" />
+    <img className="Image80" style={{width: 24, height: 24, left: 271, top: 265, position: 'absolute'}} src="https://via.placeholder.com/24x24" />
+    <div style={{width: 47, left: 259, top: 407, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>난이도</div>
+    <div className="Component18" style={{width: 112, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, left: 44, top: 533, position: 'absolute', borderRadius: 25, overflow: 'hidden', border: '1px #CCCCCC solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', color: '#CCCCCC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>뒤로가기</div>
+    </div>
+    <div style={{width: 112, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, left: 203, top: 533, position: 'absolute', background: '#FEA655', borderRadius: 25, overflow: 'hidden', border: '1px #FEA655 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>다음</div>
+    </div>
+    <div className="Component44" style={{width: 89, height: 45, left: 239, top: 448, position: 'absolute'}}>
+        <div style={{left: 31, top: 30, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 10, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>쉬워요</div>
+    </div>
+    <div className="Group2548" style={{width: 162, height: 229, left: 29, top: 280, position: 'absolute'}}>
+        <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>양파</div>
+        <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>1</div>
+        <div style={{width: 34, height: 11, left: 116, top: 218, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>작은술</div>
+        <div style={{width: 46, height: 11, left: 116, top: 196, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>큰술</div>
+    </div>
+    <div className="Group2537" style={{width: 116, height: 11, left: 29, top: 302, position: 'absolute'}}>
+        <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>파</div>
+        <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>½</div>
+    </div>
+    <div className="Group2538" style={{width: 116, height: 11, left: 29, top: 324, position: 'absolute'}}>
+        <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>양배추</div>
+        <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>100</div>
+    </div>
+    <div className="Group2539" style={{width: 116, height: 11, left: 29, top: 346, position: 'absolute'}}>
+        <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>닭 가슴살</div>
+        <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>15</div>
+    </div>
+    <div className="Group2540" style={{width: 116, height: 11, left: 29, top: 367, position: 'absolute'}}>
+        <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>아스파라거스</div>
+        <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>1</div>
+    </div>
+    <div className="Group2541" style={{width: 116, height: 11, left: 29, top: 388, position: 'absolute'}}>
+        <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>표고버섯</div>
+        <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>2</div>
+    </div>
+    <div className="Group2542" style={{width: 116, height: 11, left: 29, top: 410, position: 'absolute'}}>
+        <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>당근</div>
+        <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>1</div>
+    </div>
+    <div className="Group2543" style={{width: 147, height: 11, left: 29, top: 432, position: 'absolute'}}>
+        <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>고추장</div>
+        <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>3</div>
+        <div style={{width: 31, height: 11, left: 116, top: 0, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>큰술</div>
+    </div>
+    <div style={{width: 31, height: 11, left: 145, top: 410, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>개</div>
+    <div style={{width: 31, height: 11, left: 145, top: 388, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>개</div>
+    <div style={{width: 31, height: 11, left: 145, top: 367, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>개</div>
+    <div className="G" style={{width: 31, height: 11, left: 145, top: 346, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>g</div>
+    <div className="Ml" style={{width: 31, height: 11, left: 145, top: 324, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>ml</div>
+    <div className="Group2544" style={{width: 147, height: 11, left: 29, top: 454, position: 'absolute'}}>
+        <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>고춧가루</div>
+        <div style={{width: 36, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>5</div>
+        <div style={{width: 31, height: 11, left: 116, top: 0, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>큰술</div>
+    </div>
+    <div className="Group2545" style={{width: 115, height: 11, left: 29, top: 476, position: 'absolute'}}>
+        <div style={{width: 77.81, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>설탕</div>
+        <div style={{width: 36, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>1</div>
+    </div>
+    <div className="Group2546" style={{width: 115, height: 11, left: 29, top: 498, position: 'absolute'}}>
+        <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>다진마늘</div>
+        <div style={{width: 36, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>2½</div>
+    </div>
+    <div className="G" style={{width: 33, height: 11, left: 176, top: 280, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>100g</div>
+    <div className="G" style={{width: 33, height: 11, left: 176, top: 302, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>100g</div>
+    <div className="G" style={{width: 33, height: 11, left: 176, top: 388, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>70g</div>
+    <div className="G" style={{width: 33, height: 11, left: 176, top: 410, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>100g</div>
+    <div className="Ml" style={{width: 33, height: 11, left: 176, top: 432, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>45ml</div>
+    <div className="Ml" style={{width: 33, height: 11, left: 176, top: 454, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>1000ml</div>
+    <div className="Ml" style={{width: 33, height: 11, left: 176, top: 476, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>15ml</div>
+    <div className="Ml" style={{width: 33, height: 11, left: 176, top: 498, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>10ml</div>
+    <div className="G" style={{width: 33, height: 11, left: 176, top: 367, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>100g</div>
+    <div className="NavigationBar" style={{width: 360, height: 59, left: 0, top: 581, position: 'absolute', background: 'white', borderTopLeftRadius: 15, borderTopRightRadius: 15, overflow: 'hidden', border: '0.50px #CCCCCC solid', justifyContent: 'center', alignItems: 'center', gap: 30, display: 'inline-flex'}}>
+        <div className="HomeIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Shape" style={{width: 30.14, height: 31, border: '1.50px #111111 solid'}}></div>
+        </div>
+        <div className="CalIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Shape" style={{width: 27, height: 29.49, border: '1.40px black solid'}}></div>
+        </div>
+        <div className="RecipeCion" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Group2630" style={{width: 31, height: 31, position: 'relative'}}>
+                <div className="Vector5" style={{width: 14.09, height: 25.01, left: 0, top: 5.41, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 0, height: 16.73, left: 4.88, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Vector14" style={{width: 4.34, height: 15.72, left: 4.88, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 0, height: 16.73, left: 9.21, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 14.09, height: 8.11, left: 0, top: 0, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 14.20, height: 28.97, left: 30.73, top: 31, position: 'absolute', transform: 'rotate(-179.53deg)', transformOrigin: '0 0', background: 'black', border: '1.50px black solid'}}></div>
+            </div>
+        </div>
+        <div className="SettingIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Group2480" style={{width: 32.50, height: 32.50, position: 'relative', transform: 'rotate(-180deg)', transformOrigin: '0 0'}}>
+                <div className="Ellipse29" style={{width: 26.90, height: 26.90, left: -29.70, top: -2.80, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector49" style={{width: 7.28, height: 3.92, left: -12.61, top: -0, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector53" style={{width: 7.27, height: 4.08, left: -25.08, top: -2.10, position: 'absolute', transform: 'rotate(-135deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector56" style={{width: 7.28, height: 3.77, left: -7.25, top: -30.24, position: 'absolute', transform: 'rotate(45deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector54" style={{width: 7.27, height: 4.08, left: -2.28, top: -7.24, position: 'absolute', transform: 'rotate(135deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector55" style={{width: 7.28, height: 3.77, left: -30.40, top: -25.09, position: 'absolute', transform: 'rotate(-45deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector50" style={{width: 7.28, height: 3.92, left: -19.89, top: -32.50, position: 'absolute', border: '1.50px black solid'}}></div>
+                <div className="Vector51" style={{width: 7.56, height: 4.08, left: 0, top: -20.01, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector52" style={{width: 7.28, height: 3.92, left: -32.50, top: -12.61, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Ellipse30" style={{width: 13.45, height: 13.45, left: -9.53, top: -9.53, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 360, height: 36, left: 0, top: -1, position: 'absolute'}}>
+        <div style={{left: 0, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: '#D4D4D4', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>냉장고</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #D4D4D4 solid'}}></div>
+            </div>
+        </div>
+        <div style={{left: 120, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>레시피</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #FEA655 solid'}}></div>
+            </div>
+        </div>
+        <div style={{left: 240, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: '#D4D4D4', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>북마크</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #D4D4D4 solid'}}></div>
+            </div>
+        </div>
+        <div style={{width: 12, height: 12, left: 214, top: 24, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0'}}>
+            <div className="Ellipse26" style={{width: 12, height: 12, left: 0, top: 0, position: 'absolute', background: 'rgba(217, 217, 217, 0)', border: '0.80px #FEA655 solid'}}></div>
+            <div style={{width: 1.33, height: 6.67, left: 5.33, top: 2.67, position: 'absolute', background: '#FEA655'}}></div>
+        </div>
+    </div>
+</div>
+
+//스타일
+// 닭볶음탕
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 분
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 30
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 난이도
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 뒤로가기
+color: '#CCCCCC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 다음
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 쉬워요
+color: 'black';
+ fontSize: 10;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 양파
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 1
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 작은술
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 큰술
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 파
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// ½
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 양배추
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 100
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 닭 가슴살
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 15
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 아스파라거스
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 1
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 표고버섯
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 2
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 당근
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 1
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 고추장
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 3
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 큰술
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 개
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 개
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 개
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// g
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// ml
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 고춧가루
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 5
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 큰술
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 설탕
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 1
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 다진마늘
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 2½
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 100g
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 100g
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 70g
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 100g
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 45ml
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 1000ml
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 15ml
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 10ml
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 100g
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 냉장고
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 레시피
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 북마크
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+
+
+//조리과정 작성
+<div style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
+    <div className="Frame5075" style={{width: 328, paddingLeft: 6, paddingRight: 6, paddingTop: 8, paddingBottom: 8, left: 21, top: 109, position: 'absolute', background: 'white', borderRadius: 7, overflow: 'hidden', justifyContent: 'center', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
+        <div style={{width: 32, height: 35, textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>1.</div>
+        <div className="85" style={{width: 278, height: 38, color: '#9C9C9C', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>레시피 입력 (최대 85자)</div>
+    </div>
+    <div className="Rectangle187" style={{width: 86, height: 23, left: 143, top: 172, position: 'absolute', background: 'white', borderRadius: 4, border: '1px #B3B3B3 solid'}} />
+    <div style={{width: 59, height: 15, left: 167, top: 176, position: 'absolute', color: '#B3B3B3', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>과정 추가</div>
+    <div className="Group2481" style={{width: 8, height: 8, left: 151, top: 179, position: 'absolute'}}>
+        <div className="Vector57" style={{width: 0, height: 8, left: 4, top: 0, position: 'absolute', border: '1px #B3B3B3 solid'}}></div>
+        <div className="Vector58" style={{width: 0, height: 8, left: 0, top: 4, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '1px #B3B3B3 solid'}}></div>
+    </div>
+    <div className="Component11" style={{width: 112, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, left: 203, top: 533, position: 'absolute', background: '#FEA655', borderRadius: 25, overflow: 'hidden', border: '1px #FEA655 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>레시피 등록</div>
+    </div>
+    <div className="Component18" style={{width: 112, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, left: 44, top: 533, position: 'absolute', borderRadius: 25, overflow: 'hidden', border: '1px #CCCCCC solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', color: '#CCCCCC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>뒤로가기</div>
+    </div>
+    <div className="NavigationBar" style={{width: 360, height: 59, left: 0, top: 581, position: 'absolute', background: 'white', borderTopLeftRadius: 15, borderTopRightRadius: 15, overflow: 'hidden', border: '0.50px #CCCCCC solid', justifyContent: 'center', alignItems: 'center', gap: 30, display: 'inline-flex'}}>
+        <div className="HomeIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Shape" style={{width: 30.14, height: 31, border: '1.50px #111111 solid'}}></div>
+        </div>
+        <div className="CalIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Shape" style={{width: 27, height: 29.49, border: '1.40px black solid'}}></div>
+        </div>
+        <div className="RecipeCion" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Group2630" style={{width: 31, height: 31, position: 'relative'}}>
+                <div className="Vector5" style={{width: 14.09, height: 25.01, left: 0, top: 5.41, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 0, height: 16.73, left: 4.88, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Vector14" style={{width: 4.34, height: 15.72, left: 4.88, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 0, height: 16.73, left: 9.21, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 14.09, height: 8.11, left: 0, top: 0, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 14.20, height: 28.97, left: 30.73, top: 31, position: 'absolute', transform: 'rotate(-179.53deg)', transformOrigin: '0 0', background: 'black', border: '1.50px black solid'}}></div>
+            </div>
+        </div>
+        <div className="SettingIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Group2480" style={{width: 32.50, height: 32.50, position: 'relative', transform: 'rotate(-180deg)', transformOrigin: '0 0'}}>
+                <div className="Ellipse29" style={{width: 26.90, height: 26.90, left: -29.70, top: -2.80, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector49" style={{width: 7.28, height: 3.92, left: -12.61, top: -0, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector53" style={{width: 7.27, height: 4.08, left: -25.08, top: -2.10, position: 'absolute', transform: 'rotate(-135deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector56" style={{width: 7.28, height: 3.77, left: -7.25, top: -30.24, position: 'absolute', transform: 'rotate(45deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector54" style={{width: 7.27, height: 4.08, left: -2.28, top: -7.24, position: 'absolute', transform: 'rotate(135deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector55" style={{width: 7.28, height: 3.77, left: -30.40, top: -25.09, position: 'absolute', transform: 'rotate(-45deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector50" style={{width: 7.28, height: 3.92, left: -19.89, top: -32.50, position: 'absolute', border: '1.50px black solid'}}></div>
+                <div className="Vector51" style={{width: 7.56, height: 4.08, left: 0, top: -20.01, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector52" style={{width: 7.28, height: 3.92, left: -32.50, top: -12.61, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Ellipse30" style={{width: 13.45, height: 13.45, left: -9.53, top: -9.53, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 360, height: 36, left: 0, top: 1, position: 'absolute'}}>
+        <div style={{left: 0, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: '#D4D4D4', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>냉장고</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #D4D4D4 solid'}}></div>
+            </div>
+        </div>
+        <div style={{left: 120, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>레시피</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #FEA655 solid'}}></div>
+            </div>
+        </div>
+        <div style={{left: 240, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: '#D4D4D4', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>북마크</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #D4D4D4 solid'}}></div>
+            </div>
+        </div>
+        <div style={{width: 12, height: 12, left: 214, top: 24, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0'}}>
+            <div className="Ellipse26" style={{width: 12, height: 12, left: 0, top: 0, position: 'absolute', background: 'rgba(217, 217, 217, 0)', border: '0.80px #FEA655 solid'}}></div>
+            <div style={{width: 1.33, height: 6.67, left: 5.33, top: 2.67, position: 'absolute', background: '#FEA655'}}></div>
+        </div>
+    </div>
+    <div className="Rectangle171" style={{width: 130, height: 38, left: 21, top: 50, position: 'absolute', background: 'white', borderRadius: 10}} />
+    <div style={{width: 139, height: 24, left: 27, top: 57, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>조리과정 작성</div>
+    <div className="Line39" style={{width: 118, height: 0, left: 27, top: 83, position: 'absolute', border: '1px #FEA655 solid'}}></div>
+</div>
+
+//스타일
+// 1.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 레시피 입력 (최대 85자)
+color: '#9C9C9C';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 과정 추가
+color: '#B3B3B3';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 레시피 등록
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 뒤로가기
+color: '#CCCCCC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 냉장고
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 레시피
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 북마크
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 조리과정 작성
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+
+
+//조리과정 작성 후
+<div style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
+    <div className="Frame5141" style={{paddingTop: 59, paddingBottom: 58, paddingLeft: 16, paddingRight: 16, left: 0, top: 36, position: 'absolute', background: '#F8F9FA', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div className="Frame5144" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+            <div className="Frame5083" style={{width: 328, paddingLeft: 6, paddingRight: 6, paddingTop: 8, paddingBottom: 8, background: 'white', borderRadius: 7, overflow: 'hidden', justifyContent: 'center', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
+                <div style={{width: 32, height: 35, textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>1.</div>
+                <div style={{width: 278, height: 38, color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>파와 청양고추는 어슷 썰고 당근 감자는 큼직하게 썰어주세요.</div>
+            </div>
+            <div className="Frame5084" style={{width: 328, paddingLeft: 6, paddingRight: 6, paddingTop: 8, paddingBottom: 8, background: 'white', borderRadius: 7, overflow: 'hidden', justifyContent: 'center', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
+                <div style={{width: 32, height: 35, textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>2.</div>
+                <div style={{width: 278, height: 38, color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>양파는 반을 자른 후 사각으로 썰어주세요.</div>
+            </div>
+            <div className="Frame5085" style={{width: 328, paddingLeft: 6, paddingRight: 6, paddingTop: 8, paddingBottom: 8, background: 'white', borderRadius: 7, overflow: 'hidden', justifyContent: 'center', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
+                <div style={{width: 32, height: 35, textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>3.</div>
+                <div className="272511" style={{width: 278, height: 38, color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>고추장2큰술 고추가루7큰술 설탕2큰술 국간장5큰술 마늘1큰술 넣고 소주잔으로 물1컵 넣고 섞어 주세요.</div>
+            </div>
+            <div className="Frame5086" style={{width: 328, paddingLeft: 6, paddingRight: 6, paddingTop: 8, paddingBottom: 8, background: 'white', borderRadius: 7, overflow: 'hidden', justifyContent: 'center', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
+                <div style={{width: 32, height: 35, textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>4.</div>
+                <div className="5" style={{width: 278, height: 38, color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>닭은 끓는 물에 살짝 데쳐냅니다 끓기 시작하면 5분 정도 데친 후 물을 버리고 찬물로 불순물을 씻어주세요.</div>
+            </div>
+            <div className="Frame5087" style={{width: 328, paddingLeft: 6, paddingRight: 6, paddingTop: 8, paddingBottom: 8, background: 'white', borderRadius: 7, overflow: 'hidden', justifyContent: 'center', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
+                <div style={{width: 32, height: 35, textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>5.</div>
+                <div className="1" style={{width: 278, height: 38, color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>데친 닭을 깊은 팬에 넣고 소주 1컵을 부어줍니다 닭 잡내를 잡아줍니다.</div>
+            </div>
+            <div className="Frame5088" style={{width: 328, paddingLeft: 6, paddingRight: 6, paddingTop: 8, paddingBottom: 8, background: 'white', borderRadius: 7, overflow: 'hidden', justifyContent: 'center', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
+                <div style={{width: 32, height: 35, textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>6.</div>
+                <div className="800ml23" style={{width: 278, height: 38, color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>당근 감자를 넣어주고 중간에 양념장을 올린 후 물 800ml 넣어주세요 계랑컵이 없으면 재료 끄트머리 2/3 정도만 넣어주세요. 호호호호 호호호 호호호 호호.</div>
+            </div>
+            <div className="Frame5089" style={{width: 328, paddingLeft: 6, paddingRight: 6, paddingTop: 8, paddingBottom: 8, background: 'white', borderRadius: 7, overflow: 'hidden', justifyContent: 'center', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
+                <div style={{width: 32, height: 35, textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>7.</div>
+                <div style={{width: 278, height: 38, color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>양파는 반을 자른 후 사각으로 썰어주세요.</div>
+            </div>
+        </div>
+    </div>
+    <div className="NavigationBar" style={{width: 360, height: 59, left: 0, top: 581, position: 'absolute', background: 'white', borderTopLeftRadius: 15, borderTopRightRadius: 15, overflow: 'hidden', border: '0.50px #CCCCCC solid', justifyContent: 'center', alignItems: 'center', gap: 30, display: 'inline-flex'}}>
+        <div className="HomeIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Shape" style={{width: 30.14, height: 31, border: '1.50px #111111 solid'}}></div>
+        </div>
+        <div className="CalIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Shape" style={{width: 27, height: 29.49, border: '1.40px black solid'}}></div>
+        </div>
+        <div className="RecipeCion" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Group2630" style={{width: 31, height: 31, position: 'relative'}}>
+                <div className="Vector5" style={{width: 14.09, height: 25.01, left: 0, top: 5.41, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 0, height: 16.73, left: 4.88, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Vector14" style={{width: 4.34, height: 15.72, left: 4.88, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 0, height: 16.73, left: 9.21, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 14.09, height: 8.11, left: 0, top: 0, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 14.20, height: 28.97, left: 30.73, top: 31, position: 'absolute', transform: 'rotate(-179.53deg)', transformOrigin: '0 0', background: 'black', border: '1.50px black solid'}}></div>
+            </div>
+        </div>
+        <div className="SettingIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Group2480" style={{width: 32.50, height: 32.50, position: 'relative', transform: 'rotate(-180deg)', transformOrigin: '0 0'}}>
+                <div className="Ellipse29" style={{width: 26.90, height: 26.90, left: -29.70, top: -2.80, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector49" style={{width: 7.28, height: 3.92, left: -12.61, top: -0, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector53" style={{width: 7.27, height: 4.08, left: -25.08, top: -2.10, position: 'absolute', transform: 'rotate(-135deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector56" style={{width: 7.28, height: 3.77, left: -7.25, top: -30.24, position: 'absolute', transform: 'rotate(45deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector54" style={{width: 7.27, height: 4.08, left: -2.28, top: -7.24, position: 'absolute', transform: 'rotate(135deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector55" style={{width: 7.28, height: 3.77, left: -30.40, top: -25.09, position: 'absolute', transform: 'rotate(-45deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector50" style={{width: 7.28, height: 3.92, left: -19.89, top: -32.50, position: 'absolute', border: '1.50px black solid'}}></div>
+                <div className="Vector51" style={{width: 7.56, height: 4.08, left: 0, top: -20.01, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector52" style={{width: 7.28, height: 3.92, left: -32.50, top: -12.61, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Ellipse30" style={{width: 13.45, height: 13.45, left: -9.53, top: -9.53, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+            </div>
+        </div>
+    </div>
+    <div className="Component19" style={{width: 112, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, left: 199, top: 522, position: 'absolute', background: '#FEA655', borderRadius: 25, overflow: 'hidden', border: '1px #FEA655 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>레시피 등록</div>
+    </div>
+    <div className="Component20" style={{width: 112, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, left: 40, top: 522, position: 'absolute', borderRadius: 25, overflow: 'hidden', border: '1px #CCCCCC solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', color: '#CCCCCC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>뒤로가기</div>
+    </div>
+    <div className="Frame5143" style={{left: 0, top: 36, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div className="Rectangle194" style={{width: 360, height: 68, background: '#F8F9FA'}} />
+        <div className="Group2506" style={{width: 145, height: 38, position: 'relative'}}>
+            <div className="Rectangle193" style={{width: 130, height: 38, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 10}} />
+            <div style={{width: 139, height: 24, left: 6, top: 7, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>조리과정 작성</div>
+            <div className="Line40" style={{width: 118, height: 0, left: 6, top: 33, position: 'absolute', border: '1px #FEA655 solid'}}></div>
+        </div>
+    </div>
+    <div className="Frame5142" style={{width: 360, height: 36, left: 0, top: 0, position: 'absolute'}}>
+        <div style={{left: 0, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: '#D4D4D4', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>냉장고</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #D4D4D4 solid'}}></div>
+            </div>
+        </div>
+        <div style={{left: 120, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>레시피</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #FEA655 solid'}}></div>
+            </div>
+        </div>
+        <div style={{left: 240, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: '#D4D4D4', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>북마크</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #D4D4D4 solid'}}></div>
+            </div>
+        </div>
+        <div style={{width: 12, height: 12, left: 214, top: 24, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0'}}>
+            <div className="Ellipse26" style={{width: 12, height: 12, left: 0, top: 0, position: 'absolute', background: 'rgba(217, 217, 217, 0)', border: '0.80px #FEA655 solid'}}></div>
+            <div style={{width: 1.33, height: 6.67, left: 5.33, top: 2.67, position: 'absolute', background: '#FEA655'}}></div>
+        </div>
+    </div>
+</div>
+
+//스타일
+// 1.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 파와 청양고추는 어슷 썰고 당근 감자는 큼직하게 썰어주세요.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 2.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 양파는 반을 자른 후 사각으로 썰어주세요.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 3.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 고추장2큰술 고추가루7큰술 설탕2큰술 국간장5큰술 마늘1큰술 넣고 소주잔으로 물1컵 넣고 섞어 주세요.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 4.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 닭은 끓는 물에 살짝 데쳐냅니다 끓기 시작하면 5분 정도 데친 후 물을 버리고 찬물로 불순물을 씻어주세요.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 5.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 데친 닭을 깊은 팬에 넣고 소주 1컵을 부어줍니다 닭 잡내를 잡아줍니다.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 6.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 당근 감자를 넣어주고 중간에 양념장을 올린 후 물 800ml 넣어주세요 계랑컵이 없으면 재료 끄트머리 2/3 정도만 넣어주세요. 호호호호 호호호 호호호 호호.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 7.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 양파는 반을 자른 후 사각으로 썰어주세요.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 레시피 등록
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 뒤로가기
+color: '#CCCCCC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 조리과정 작성
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 냉장고
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 레시피
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 북마크
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+
+
+//레시피 재료 화면
+<div style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
+    <div className="Rectangle173" style={{width: 112, height: 125, left: 227, top: 393, position: 'absolute', background: 'white', borderRadius: 10}} />
+    <img className="Rectangle139" style={{width: 324, height: 139, left: 18, top: 55, position: 'absolute', borderRadius: 7}} src="https://via.placeholder.com/324x139" />
+    <div className="Rectangle171" style={{width: 90, height: 38, left: 21, top: 206, position: 'absolute', background: 'white', borderRadius: 10}} />
+    <div style={{width: 139, height: 24, left: 27, top: 213, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>닭볶음탕</div>
+    <div className="Rectangle140" style={{width: 187, height: 265, left: 23, top: 256, position: 'absolute', background: 'white', borderRadius: 10}} />
+    <div className="Rectangle172" style={{width: 112, height: 128, left: 227, top: 253, position: 'absolute', background: 'white', borderRadius: 10}} />
+    <div style={{width: 108, height: 84, left: 229, top: 284, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 20, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>30분</div>
+    <div className="Line39" style={{width: 77, height: 0, left: 27, top: 239, position: 'absolute', border: '1px #FEA655 solid'}}></div>
+    <img className="Image79" style={{width: 24, height: 24, left: 35, top: 265, position: 'absolute'}} src="https://via.placeholder.com/24x24" />
+    <img className="Image80" style={{width: 24, height: 24, left: 271, top: 265, position: 'absolute'}} src="https://via.placeholder.com/24x24" />
+    <div style={{width: 47, left: 259, top: 407, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>난이도</div>
+    <div className="Group2558" style={{width: 89, height: 43, left: 239, top: 448, position: 'absolute'}}>
+        <div style={{left: 25, top: 28, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 10, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>할만해요</div>
+        <div className="Group2547" style={{width: 25, height: 25, left: 0, top: 0, position: 'absolute'}}>
+            <div className="StarFill" style={{width: 20, height: 19, left: 2.50, top: 3, position: 'absolute', background: '#FEA655', border: '1px #FEA655 solid'}}></div>
+            <img className="Image81" style={{width: 25, height: 25, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/25x25" />
+        </div>
+        <img className="Image82" style={{width: 25, height: 25, left: 32, top: 0, position: 'absolute'}} src="https://via.placeholder.com/25x25" />
+        <img className="Image83" style={{width: 25, height: 25, left: 64, top: 0, position: 'absolute'}} src="https://via.placeholder.com/25x25" />
+    </div>
+    <div className="Component18" style={{width: 112, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, left: 44, top: 533, position: 'absolute', borderRadius: 25, overflow: 'hidden', border: '1px #CCCCCC solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', color: '#CCCCCC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>돌아가기</div>
+    </div>
+    <div style={{width: 112, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, left: 203, top: 533, position: 'absolute', background: '#FEA655', borderRadius: 25, overflow: 'hidden', border: '1px #FEA655 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>조리하기</div>
+    </div>
+    <div className="Bookmark" style={{width: 17, height: 21, left: 319, top: 215, position: 'absolute'}}>
+        <div className="Shape" style={{width: 17, height: 21, left: 0, top: 0, position: 'absolute', border: '1px #555555 solid'}}></div>
+    </div>
+    <div className="Frame5121" style={{width: 187, height: 1304, left: 23, top: 256, position: 'absolute'}}>
+        <div className="Group2548" style={{width: 162, height: 229, left: 6, top: 24, position: 'absolute'}}>
+            <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: '#E50000', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>양파</div>
+            <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: '#E50000', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>1</div>
+            <div style={{width: 34, height: 11, left: 116, top: 218, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>작은술</div>
+            <div style={{width: 46, height: 11, left: 116, top: 196, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>큰술</div>
+        </div>
+        <div className="Group2537" style={{width: 116, height: 11, left: 6, top: 46, position: 'absolute'}}>
+            <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>파</div>
+            <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>½</div>
+        </div>
+        <div className="Group2538" style={{width: 116, height: 11, left: 6, top: 68, position: 'absolute'}}>
+            <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>양배추</div>
+            <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>100</div>
+        </div>
+        <div className="Group2539" style={{width: 116, height: 11, left: 6, top: 90, position: 'absolute'}}>
+            <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>닭 가슴살</div>
+            <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>15</div>
+        </div>
+        <div className="Group2540" style={{width: 116, height: 11, left: 6, top: 111, position: 'absolute'}}>
+            <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>아스파라거스</div>
+            <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>1</div>
+        </div>
+        <div className="Group2541" style={{width: 116, height: 11, left: 6, top: 132, position: 'absolute'}}>
+            <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>표고버섯</div>
+            <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>2</div>
+        </div>
+        <div className="Group2542" style={{width: 116, height: 11, left: 6, top: 154, position: 'absolute'}}>
+            <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>당근</div>
+            <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>1</div>
+        </div>
+        <div className="Group2543" style={{width: 147, height: 11, left: 6, top: 176, position: 'absolute'}}>
+            <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>고추장</div>
+            <div style={{width: 37, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>3</div>
+            <div style={{width: 31, height: 11, left: 116, top: 0, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>큰술</div>
+        </div>
+        <div style={{width: 31, height: 11, left: 122, top: 154, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>개</div>
+        <div style={{width: 31, height: 11, left: 122, top: 132, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>개</div>
+        <div style={{width: 31, height: 11, left: 122, top: 111, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>개</div>
+        <div className="G" style={{width: 31, height: 11, left: 122, top: 90, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>g</div>
+        <div className="Ml" style={{width: 31, height: 11, left: 122, top: 68, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>ml</div>
+        <div className="Group2544" style={{width: 147, height: 11, left: 6, top: 198, position: 'absolute'}}>
+            <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>고춧가루</div>
+            <div style={{width: 36, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>5</div>
+            <div style={{width: 31, height: 11, left: 116, top: 0, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>큰술</div>
+        </div>
+        <div className="Group2545" style={{width: 115, height: 11, left: 6, top: 220, position: 'absolute'}}>
+            <div style={{width: 77.81, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>설탕</div>
+            <div style={{width: 36, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>1</div>
+        </div>
+        <div className="Group2546" style={{width: 115, height: 11, left: 6, top: 242, position: 'absolute'}}>
+            <div style={{width: 79, height: 11, left: 0, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>다진마늘</div>
+            <div style={{width: 36, height: 11, left: 79, top: 0, position: 'absolute', textAlign: 'right', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>2½</div>
+        </div>
+        <div className="G" style={{width: 33, height: 11, left: 153, top: 24, position: 'absolute', textAlign: 'center', color: '#E50000', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>100g</div>
+        <div className="G" style={{width: 33, height: 11, left: 153, top: 46, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>100g</div>
+        <div className="G" style={{width: 33, height: 11, left: 153, top: 132, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>70g</div>
+        <div className="G" style={{width: 33, height: 11, left: 153, top: 154, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>100g</div>
+        <div className="Ml" style={{width: 33, height: 11, left: 153, top: 176, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>45ml</div>
+        <div className="Ml" style={{width: 33, height: 11, left: 153, top: 198, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>1000ml</div>
+        <div className="Ml" style={{width: 33, height: 11, left: 153, top: 220, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>15ml</div>
+        <div className="Ml" style={{width: 33, height: 11, left: 153, top: 242, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>10ml</div>
+        <div className="G" style={{width: 33, height: 11, left: 153, top: 111, position: 'absolute', textAlign: 'center', color: '#555555', fontSize: 9, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>100g</div>
+    </div>
+    <img className="Image450" style={{width: 30, height: 30, left: 308, top: 59, position: 'absolute'}} src="https://via.placeholder.com/30x30" />
+    <div style={{width: 360, height: 36, left: 0, top: 0, position: 'absolute'}}>
+        <div style={{left: 0, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: '#D4D4D4', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>냉장고</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #D4D4D4 solid'}}></div>
+            </div>
+        </div>
+        <div style={{left: 120, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>레시피</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #FEA655 solid'}}></div>
+            </div>
+        </div>
+        <div style={{left: 240, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: '#D4D4D4', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>북마크</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #D4D4D4 solid'}}></div>
+            </div>
+        </div>
+        <div style={{width: 12, height: 12, left: 214, top: 24, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0'}}>
+            <div className="Ellipse26" style={{width: 12, height: 12, left: 0, top: 0, position: 'absolute', background: 'rgba(217, 217, 217, 0)', border: '0.80px #FEA655 solid'}}></div>
+            <div style={{width: 1.33, height: 6.67, left: 5.33, top: 2.67, position: 'absolute', background: '#FEA655'}}></div>
+        </div>
+    </div>
+    <div className="NavigationBar" style={{width: 360, height: 59, left: 0, top: 581, position: 'absolute', background: 'white', borderTopLeftRadius: 15, borderTopRightRadius: 15, overflow: 'hidden', border: '0.50px #CCCCCC solid', justifyContent: 'center', alignItems: 'center', gap: 30, display: 'inline-flex'}}>
+        <div className="HomeIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Shape" style={{width: 30.14, height: 31, border: '1.50px #111111 solid'}}></div>
+        </div>
+        <div className="CalIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Shape" style={{width: 27, height: 29.49, border: '1.40px black solid'}}></div>
+        </div>
+        <div className="RecipeCion" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Group2630" style={{width: 31, height: 31, position: 'relative'}}>
+                <div className="Vector5" style={{width: 14.09, height: 25.01, left: 0, top: 5.41, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 0, height: 16.73, left: 4.88, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Vector14" style={{width: 4.34, height: 15.72, left: 4.88, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 0, height: 16.73, left: 9.21, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 14.09, height: 8.11, left: 0, top: 0, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 14.20, height: 28.97, left: 30.73, top: 31, position: 'absolute', transform: 'rotate(-179.53deg)', transformOrigin: '0 0', background: 'black', border: '1.50px black solid'}}></div>
+            </div>
+        </div>
+        <div className="SettingIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Group2480" style={{width: 32.50, height: 32.50, position: 'relative', transform: 'rotate(-180deg)', transformOrigin: '0 0'}}>
+                <div className="Ellipse29" style={{width: 26.90, height: 26.90, left: -29.70, top: -2.80, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector49" style={{width: 7.28, height: 3.92, left: -12.61, top: -0, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector53" style={{width: 7.27, height: 4.08, left: -25.08, top: -2.10, position: 'absolute', transform: 'rotate(-135deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector56" style={{width: 7.28, height: 3.77, left: -7.25, top: -30.24, position: 'absolute', transform: 'rotate(45deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector54" style={{width: 7.27, height: 4.08, left: -2.28, top: -7.24, position: 'absolute', transform: 'rotate(135deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector55" style={{width: 7.28, height: 3.77, left: -30.40, top: -25.09, position: 'absolute', transform: 'rotate(-45deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector50" style={{width: 7.28, height: 3.92, left: -19.89, top: -32.50, position: 'absolute', border: '1.50px black solid'}}></div>
+                <div className="Vector51" style={{width: 7.56, height: 4.08, left: 0, top: -20.01, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector52" style={{width: 7.28, height: 3.92, left: -32.50, top: -12.61, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Ellipse30" style={{width: 13.45, height: 13.45, left: -9.53, top: -9.53, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+//스타일
+// 닭볶음탕
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 30분
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 난이도
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 할만해요
+color: 'black';
+ fontSize: 10;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 돌아가기
+color: '#CCCCCC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 조리하기
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 양파
+color: '#E50000';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 1
+color: '#E50000';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 작은술
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 큰술
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 파
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// ½
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 양배추
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 100
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 닭 가슴살
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 15
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 아스파라거스
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 1
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 표고버섯
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 2
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 당근
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 1
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 고추장
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 3
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 큰술
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 개
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 개
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 개
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// g
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// ml
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 고춧가루
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 5
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 큰술
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 설탕
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 1
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 다진마늘
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 2½
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 100g
+color: '#E50000';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 100g
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 70g
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 100g
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 45ml
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 1000ml
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 15ml
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 10ml
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 100g
+color: '#555555';
+ fontSize: 9;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 냉장고
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 레시피
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 북마크
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+
+
+//조리과정 화면
+<div style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
+    <div className="Frame5083" style={{width: 328, height: 509, paddingTop: 8, paddingBottom: 463, paddingLeft: 6, paddingRight: 6, left: 21, top: 106, position: 'absolute', background: 'white', borderRadius: 7, overflow: 'hidden', justifyContent: 'center', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
+        <div style={{width: 32, height: 35, textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>1.</div>
+        <div style={{width: 278, height: 38, color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>파와 청양고추는 어슷 썰고 당근 감자는 큼직하게 썰어주세요.</div>
+    </div>
+    <div className="Group2499" style={{width: 316, left: 27, top: 178, position: 'absolute'}}>
+        <div style={{width: 32, height: 35, left: 0, top: 1.50, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>2.</div>
+        <div style={{width: 278, height: 38, left: 38, top: 0, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>양파는 반을 자른 후 사각으로 썰어주세요.</div>
+    </div>
+    <div className="Group2500" style={{width: 316, left: 27, top: 242, position: 'absolute'}}>
+        <div style={{width: 32, height: 35, left: 0, top: 1.50, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>3.</div>
+        <div className="272511" style={{width: 278, height: 38, left: 38, top: 0, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>고추장2큰술 고추가루7큰술 설탕2큰술 국간장5큰술 마늘1큰술 넣고 소주잔으로 물1컵 넣고 섞어 주세요.</div>
+    </div>
+    <div className="Group2501" style={{width: 316, left: 27, top: 306, position: 'absolute'}}>
+        <div style={{width: 32, height: 35, left: 0, top: 1.50, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>4.</div>
+        <div className="5" style={{width: 278, height: 38, left: 38, top: 0, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>닭은 끓는 물에 살짝 데쳐냅니다 끓기 시작하면 5분 정도 데친 후 물을 버리고 찬물로 불순물을 씻어주세요.</div>
+    </div>
+    <div className="Group2502" style={{width: 316, left: 27, top: 370, position: 'absolute'}}>
+        <div style={{width: 32, height: 35, left: 0, top: 1.50, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>5.</div>
+        <div className="1" style={{width: 278, height: 38, left: 38, top: 0, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>데친 닭을 깊은 팬에 넣고 소주 1컵을 부어줍니다 닭 잡내를 잡아줍니다.</div>
+    </div>
+    <div className="Group2503" style={{width: 316, left: 27, top: 434, position: 'absolute'}}>
+        <div style={{width: 32, height: 35, left: 0, top: 1.50, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>6.</div>
+        <div className="800ml23" style={{width: 278, height: 38, left: 38, top: 0, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>당근 감자를 넣어주고 중간에 양념장을 올린 후 물 800ml 넣어주세요 계랑컵이 없으면 재료 끄트머리 2/3 정도만 넣어주세요. 호호호호 호호호 호호호 호호.</div>
+    </div>
+    <div className="Group2504" style={{width: 316, left: 27, top: 498, position: 'absolute'}}>
+        <div style={{width: 32, height: 35, left: 0, top: 1.50, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>7.</div>
+        <div style={{width: 278, height: 38, left: 38, top: 0, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>양파는 반을 자른 후 사각으로 썰어주세요.</div>
+    </div>
+    <div className="Group2505" style={{width: 316, left: 27, top: 562, position: 'absolute'}}>
+        <div style={{width: 32, height: 35, left: 0, top: 1.50, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>8.</div>
+        <div style={{width: 278, height: 38, left: 38, top: 0, position: 'absolute', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>양파는 반을 자른 후 사각으로 썰어주세요.</div>
+    </div>
+    <div className="Scroll" style={{width: 4, height: 58, left: 356, top: 104, position: 'absolute', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div className="Scroll" style={{width: 4, height: 58, position: 'relative', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+            <div className="Rectangle110" style={{width: 4, height: 58, background: '#FEA655', borderRadius: 10}} />
+        </div>
+    </div>
+    <div className="NavigationBar" style={{width: 360, height: 59, left: 0, top: 703, position: 'absolute', background: 'white', borderTopLeftRadius: 15, borderTopRightRadius: 15, overflow: 'hidden', border: '0.50px #CCCCCC solid', justifyContent: 'center', alignItems: 'center', gap: 30, display: 'inline-flex'}}>
+        <div className="HomeIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Shape" style={{width: 30.14, height: 31, border: '1.50px #111111 solid'}}></div>
+        </div>
+        <div className="CalIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Shape" style={{width: 27, height: 29.49, border: '1.40px black solid'}}></div>
+        </div>
+        <div className="RecipeCion" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Group2630" style={{width: 31, height: 31, position: 'relative'}}>
+                <div className="Vector5" style={{width: 14.09, height: 25.01, left: 0, top: 5.41, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 0, height: 16.73, left: 4.88, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Vector14" style={{width: 4.34, height: 15.72, left: 4.88, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 0, height: 16.73, left: 9.21, top: 13.69, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 14.09, height: 8.11, left: 0, top: 0, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 14.20, height: 28.97, left: 30.73, top: 31, position: 'absolute', transform: 'rotate(-179.53deg)', transformOrigin: '0 0', background: 'black', border: '1.50px black solid'}}></div>
+            </div>
+        </div>
+        <div className="SettingIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Group2480" style={{width: 32.50, height: 32.50, position: 'relative', transform: 'rotate(-180deg)', transformOrigin: '0 0'}}>
+                <div className="Ellipse29" style={{width: 26.90, height: 26.90, left: -29.70, top: -2.80, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector49" style={{width: 7.28, height: 3.92, left: -12.61, top: -0, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector53" style={{width: 7.27, height: 4.08, left: -25.08, top: -2.10, position: 'absolute', transform: 'rotate(-135deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector56" style={{width: 7.28, height: 3.77, left: -7.25, top: -30.24, position: 'absolute', transform: 'rotate(45deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector54" style={{width: 7.27, height: 4.08, left: -2.28, top: -7.24, position: 'absolute', transform: 'rotate(135deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector55" style={{width: 7.28, height: 3.77, left: -30.40, top: -25.09, position: 'absolute', transform: 'rotate(-45deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector50" style={{width: 7.28, height: 3.92, left: -19.89, top: -32.50, position: 'absolute', border: '1.50px black solid'}}></div>
+                <div className="Vector51" style={{width: 7.56, height: 4.08, left: 0, top: -20.01, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Vector52" style={{width: 7.28, height: 3.92, left: -32.50, top: -12.61, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+                <div className="Ellipse30" style={{width: 13.45, height: 13.45, left: -9.53, top: -9.53, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 360, height: 36, left: 0, top: 0, position: 'absolute'}}>
+        <div style={{left: 0, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: '#D4D4D4', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>냉장고</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #D4D4D4 solid'}}></div>
+            </div>
+        </div>
+        <div style={{left: 120, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>레시피</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #FEA655 solid'}}></div>
+            </div>
+        </div>
+        <div style={{left: 240, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 120, height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div className="Frame4995" style={{width: 120, height: 36, paddingLeft: 29, paddingRight: 29, paddingTop: 11, paddingBottom: 11, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{color: '#D4D4D4', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', wordWrap: 'break-word'}}>북마크</div>
+                </div>
+                <div className="Vector15" style={{width: 120, height: 0, border: '2px #D4D4D4 solid'}}></div>
+            </div>
+        </div>
+        <div style={{width: 12, height: 12, left: 214, top: 24, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0'}}>
+            <div className="Ellipse26" style={{width: 12, height: 12, left: 0, top: 0, position: 'absolute', background: 'rgba(217, 217, 217, 0)', border: '0.80px #FEA655 solid'}}></div>
+            <div style={{width: 1.33, height: 6.67, left: 5.33, top: 2.67, position: 'absolute', background: '#FEA655'}}></div>
+        </div>
+    </div>
+    <div className="Rectangle192" style={{width: 360, height: 109, left: 0, top: 531, position: 'absolute', background: '#F8F9FA'}} />
+    <div className="Rectangle194" style={{width: 360, height: 68, left: 0, top: 36, position: 'absolute', background: '#F8F9FA'}} />
+    <div className="Frame5092" style={{height: 38, left: 21, top: 51, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div className="Rectangle193" style={{width: 88, height: 38, background: 'white', borderRadius: 10}} />
+        <div className="Frame5091" style={{height: 26, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'flex'}}>
+            <div style={{width: 77, height: 24, color: 'black', fontSize: 20, fontFamily: 'NanumGothic', fontWeight: '700', wordWrap: 'break-word'}}>조리과정</div>
+            <div className="Line40" style={{width: 75, height: 0, border: '1px #FEA655 solid'}}></div>
+        </div>
+    </div>
+    <div className="Component11" style={{width: 112, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, left: 203, top: 533, position: 'absolute', background: '#FEA655', borderRadius: 25, overflow: 'hidden', border: '1px #FEA655 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>조리완료</div>
+    </div>
+    <div className="Component18" style={{width: 112, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, left: 44, top: 533, position: 'absolute', borderRadius: 25, overflow: 'hidden', border: '1px #CCCCCC solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', color: '#CCCCCC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>뒤로가기</div>
+    </div>
+</div>
+
+//스타일
+// 1.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 파와 청양고추는 어슷 썰고 당근 감자는 큼직하게 썰어주세요.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 2.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 양파는 반을 자른 후 사각으로 썰어주세요.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 3.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 고추장2큰술 고추가루7큰술 설탕2큰술 국간장5큰술 마늘1큰술 넣고 소주잔으로 물1컵 넣고 섞어 주세요.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 4.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 닭은 끓는 물에 살짝 데쳐냅니다 끓기 시작하면 5분 정도 데친 후 물을 버리고 찬물로 불순물을 씻어주세요.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 5.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 데친 닭을 깊은 팬에 넣고 소주 1컵을 부어줍니다 닭 잡내를 잡아줍니다.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 6.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 당근 감자를 넣어주고 중간에 양념장을 올린 후 물 800ml 넣어주세요 계랑컵이 없으면 재료 끄트머리 2/3 정도만 넣어주세요. 호호호호 호호호 호호호 호호.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 7.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 양파는 반을 자른 후 사각으로 썰어주세요.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 8.
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 양파는 반을 자른 후 사각으로 썰어주세요.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 냉장고
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 레시피
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 북마크
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 조리과정
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// 조리완료
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 뒤로가기
+color: '#CCCCCC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+
+
+//조리완료 팝업
+<div className="Frame5163" style={{width: '100%', height: '100%', position: 'relative'}}>
+    <div className="Rectangle186" style={{width: 250, height: 62, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 10}} />
+    <div style={{width: 250, height: 54, left: 0, top: 4, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>요리가 완료되었습니다!</div>
+</div>
+
+//스타일
+// 요리가 완료되었습니다!
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 24;
+ wordWrap: 'break-word'
+
+
+//레시피 등록 완료 팝업
+<div className="Frame5116" style={{width: '100%', height: '100%', position: 'relative'}}>
+    <div className="Rectangle186" style={{width: 250, height: 62, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 10}} />
+    <div style={{width: 250, height: 54, left: 0, top: 4, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>레시피 등록이 완료되었습니다!</div>
+</div>
+
+//스타일
+// 레시피 등록이 완료되었습니다!
+color: 'black';
+ fontSize: 16;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 24;
+ wordWrap: 'break-word'
+
+
