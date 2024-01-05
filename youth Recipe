@@ -283,7 +283,8 @@
     </div>
 </div>
 
--- // 130분
+//스타일
+// 130분
 color: 'black';
  fontSize: 12;
  fontFamily: 'NanumGothic';
