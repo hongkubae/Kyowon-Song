@@ -1,0 +1,696 @@
+//첫 시작 로고
+<div className="Logo" style={{width: '100%', height: '100%', paddingTop: 209, paddingBottom: 208, paddingLeft: 68, paddingRight: 68, background: '#F8F9FA', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+    <img className="UntitledArtwork22" style={{width: 224, height: 223}} src="https://via.placeholder.com/224x223" />
+</div>
+
+
+//로그인
+<div style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
+    <div style={{width: 57, height: 19, left: 38, top: 470, position: 'absolute', textAlign: 'right', color: '#838383', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'}}>회원가입 ></div>
+    <div className="Group2371" style={{width: 164.42, left: 105, top: 47, position: 'absolute'}}>
+        <div className="Truffle" style={{width: 126, height: 55, left: 0, top: 0, position: 'absolute', color: 'black', fontSize: 40, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 60, wordWrap: 'break-word'}}>Truffle</div>
+        <img className="UntitledArtwork22" style={{width: 38.42, height: 47.79, left: 126, top: 7, position: 'absolute'}} src="https://via.placeholder.com/38x48" />
+    </div>
+    <div className="Rectangle96" style={{width: 148, height: 49, left: -159, top: 772.50, position: 'absolute', background: '#D9D9D9'}}></div>
+    <div className="Eye" style={{width: 16, height: 11.50, left: 275, top: 265, position: 'absolute'}}>
+        <div className="Vector10" style={{width: 16, height: 5, left: 0, top: 1, position: 'absolute', border: '1.50px #CCCCCC solid'}}></div>
+        <div className="Vector11" style={{width: 16, height: 4, left: 0, top: 10.10, position: 'absolute', border: '1.50px #CCCCCC solid'}}></div>
+        <div className="Ellipse4" style={{width: 4, height: 4, left: 6, top: 3.60, position: 'absolute', background: '#CCCCCC', borderRadius: 9999}} />
+        <div className="Vector13" style={{width: 15.50, height: 11.50, left: 0, top: 0, position: 'absolute', border: '1.50px #CCCCCC solid'}}></div>
+    </div>
+    <div style={{width: 98, height: 19, left: 224, top: 470, position: 'absolute', textAlign: 'right', color: '#757575', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'}}>비밀번호 재설정 ></div>
+    <div className="Frame5031" style={{width: 232, height: 23, paddingLeft: 26, paddingRight: 26, left: 66, top: 211, position: 'absolute', background: 'rgba(255, 255, 255, 0)', borderBottom: '0.80px #878787 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{width: 226, height: 13, color: '#BCBCBC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>이메일</div>
+    </div>
+    <div className="Frame5032" style={{width: 232, height: 23, paddingLeft: 26, paddingRight: 26, left: 66, top: 260, position: 'absolute', background: 'rgba(255, 255, 255, 0)', borderBottom: '0.80px #878787 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{width: 226, height: 13, color: '#BCBCBC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>비밀번호</div>
+    </div>
+    <div style={{width: 97, height: 19, left: 92, top: 301, position: 'absolute', color: '#757575', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'}}>로그인 정보 저장</div>
+    <div className="Group2451" style={{width: 13, height: 13, left: 74, top: 304, position: 'absolute'}}>
+        <div className="Rectangle120" style={{width: 13, height: 13, left: 0, top: 0, position: 'absolute', background: '#D9D9D9', borderRadius: 2}} />
+        <div className="Vector46" style={{width: 3.50, height: 5.50, left: 6.50, top: 3.50, position: 'absolute', background: '#D9D9D9', border: '2px #F8F9FA solid'}}></div>
+        <div className="Vector47" style={{width: 3.50, height: 3, left: 3, top: 6, position: 'absolute', background: '#D9D9D9', border: '2px #F8F9FA solid'}}></div>
+    </div>
+    <div style={{width: 151, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, left: 104, top: 405, position: 'absolute', background: '#FEA655', borderRadius: 25, overflow: 'hidden', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>로그인</div>
+    </div>
+</div>
+
+//스타일
+// 회원가입 >
+color: '#838383';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// Truffle
+color: 'black';
+ fontSize: 40;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 60;
+ wordWrap: 'break-word'
+---
+// 비밀번호 재설정 >
+color: '#757575';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// 이메일
+color: '#BCBCBC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 비밀번호
+color: '#BCBCBC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 로그인 정보 저장
+color: '#757575';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// 로그인
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+
+
+ //비밀번호 재설정
+ <div className="ForgotPassword" style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
+    <div style={{width: 275, height: 51, left: 42, top: 31, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Inter', fontWeight: '100', lineHeight: 36, wordWrap: 'break-word'}}>비밀번호 재설정</div>
+    <div style={{width: 99, height: 21, left: 201, top: 161, position: 'absolute'}}><span style="color: '#838383', fontSize: 13, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 19.50, wordWrap: 'break-word'">인증번호</span><span style="color: '#838383', fontSize: 13, fontFamily: 'Inter', fontWeight: '500', lineHeight: 19.50, wordWrap: 'break-word'"> 재발송</span></div>
+    <div className="Frame5033" style={{width: 232, height: 23, paddingLeft: 26, paddingRight: 26, left: 60, top: 111, position: 'absolute', background: 'rgba(255, 255, 255, 0)', borderBottom: '0.80px #878787 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{width: 226, height: 13, color: '#BCBCBC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>이메일</div>
+    </div>
+    <div className="Frame5034" style={{width: 153, paddingLeft: 26, paddingRight: 26, left: 60, top: 221, position: 'absolute', borderBottom: '0.80px #878787 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{width: 101, height: 13, color: '#BCBCBC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>인증번호</div>
+    </div>
+    <div className="Group2453" style={{width: 49, height: 20, left: 166, top: 219, position: 'absolute'}}>
+        <div style={{width: 20, height: 18, left: 29, top: 2, position: 'absolute', color: '#BE8DFF', fontSize: 13, fontFamily: 'Inter', fontWeight: '500', lineHeight: 19.50, wordWrap: 'break-word'}}>59</div>
+        <div style={{width: 20, height: 18, left: 0, top: 2, position: 'absolute', color: '#BE8DFF', fontSize: 13, fontFamily: 'Inter', fontWeight: '500', lineHeight: 19.50, wordWrap: 'break-word'}}>09</div>
+        <div style={{width: 6, height: 18, left: 21, top: 0, position: 'absolute', color: '#BE8DFF', fontSize: 13, fontFamily: 'Inter', fontWeight: '500', lineHeight: 19.50, wordWrap: 'break-word'}}>:</div>
+    </div>
+    <div style={{width: 69, height: 34, left: 223, top: 207, position: 'absolute'}}>
+        <div className="Rectangle90" style={{width: 69, height: 34, left: 0, top: 0, position: 'absolute', background: '#FEA655', borderRadius: 17}} />
+        <div style={{width: 45.12, height: 27.74, left: 11, top: 6, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>확인</div>
+    </div>
+    <div className="Frame5032" style={{width: 232, height: 23, paddingLeft: 26, paddingRight: 26, left: 60, top: 285, position: 'absolute', background: 'rgba(255, 255, 255, 0)', borderBottom: '0.80px #878787 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{width: 226, height: 13, color: '#BCBCBC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>비밀번호</div>
+    </div>
+    <div className="Frame5035" style={{width: 232, height: 23, paddingLeft: 26, paddingRight: 26, left: 60, top: 339, position: 'absolute', background: 'rgba(255, 255, 255, 0)', borderBottom: '0.80px #878787 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{width: 226, height: 13, color: '#BCBCBC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>비밀번호 확인</div>
+    </div>
+    <div className="Component6" style={{width: 132, height: 34, left: 54, top: 152, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div className="Frame5025" style={{width: 132, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, background: '#FEA655', borderRadius: 25, overflow: 'hidden', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+            <div style={{textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>인증번호 발송</div>
+        </div>
+    </div>
+    <div style={{width: 28.88, height: 56, left: 8, top: -0, position: 'absolute', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div style={{width: 28.88, height: 56, textAlign: 'center', color: '#737373', fontSize: 18, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 27, wordWrap: 'break-word'}}><</div>
+    </div>
+    <div style={{width: 146, height: 12, left: 61, top: 241, position: 'absolute', color: '#838383', fontSize: 10, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 15, wordWrap: 'break-word'}}>인증에 성공하였습니다.</div>
+    <div className="Component11" style={{width: 208, height: 34, left: 76, top: 407, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div className="Frame5026" style={{width: 208, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, background: '#FEA655', borderRadius: 25, overflow: 'hidden', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+            <div style={{textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>비밀번호 변경</div>
+        </div>
+    </div>
+</div>
+
+//스타일
+// 비밀번호 재설정
+color: 'black';
+ fontSize: 24;
+ fontFamily: 'Inter';
+ fontWeight: '100';
+ lineHeight: 36;
+ wordWrap: 'break-word'
+---
+// 인증번호
+color: '#838383';
+ fontSize: 13;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 19.50;
+ wordWrap: 'break-word'
+---
+//  재발송
+color: '#838383';
+ fontSize: 13;
+ fontFamily: 'Inter';
+ fontWeight: '500';
+ lineHeight: 19.50;
+ wordWrap: 'break-word'
+---
+// 이메일
+color: '#BCBCBC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 인증번호
+color: '#BCBCBC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 59
+color: '#BE8DFF';
+ fontSize: 13;
+ fontFamily: 'Inter';
+ fontWeight: '500';
+ lineHeight: 19.50;
+ wordWrap: 'break-word'
+---
+// 09
+color: '#BE8DFF';
+ fontSize: 13;
+ fontFamily: 'Inter';
+ fontWeight: '500';
+ lineHeight: 19.50;
+ wordWrap: 'break-word'
+---
+// :
+color: '#BE8DFF';
+ fontSize: 13;
+ fontFamily: 'Inter';
+ fontWeight: '500';
+ lineHeight: 19.50;
+ wordWrap: 'break-word'
+---
+// 확인
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 비밀번호
+color: '#BCBCBC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 비밀번호 확인
+color: '#BCBCBC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 인증번호 발송
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// <
+color: '#737373';
+ fontSize: 18;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 27;
+ wordWrap: 'break-word'
+---
+// 인증에 성공하였습니다.
+color: '#838383';
+ fontSize: 10;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 15;
+ wordWrap: 'break-word'
+---
+// 비밀번호 변경
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+
+
+ //비밀번호 변경 완료
+ <div className="ForgotPassword" style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
+    <div style={{width: 305, height: 41, left: 28, top: 253, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 20, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>비밀번호 변경이 완료되었습니다.</div>
+    <div className="Group2371" style={{width: 164.42, left: 98, top: 46, position: 'absolute'}}>
+        <div className="Truffle" style={{width: 126, height: 55, left: 0, top: 0, position: 'absolute', color: 'black', fontSize: 40, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 60, wordWrap: 'break-word'}}>Truffle</div>
+        <img className="UntitledArtwork22" style={{width: 38.42, height: 47.79, left: 126, top: 7, position: 'absolute'}} src="https://via.placeholder.com/38x48" />
+    </div>
+    <div style={{width: 151, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, left: 104, top: 405, position: 'absolute', background: '#FEA655', borderRadius: 25, overflow: 'hidden', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>로그인</div>
+    </div>
+</div>
+
+//스타일
+// 비밀번호 변경이 완료되었습니다.
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 30;
+ wordWrap: 'break-word'
+---
+// Truffle
+color: 'black';
+ fontSize: 40;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 60;
+ wordWrap: 'break-word'
+---
+// 로그인
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+
+
+ //회원가입 약관 동의
+ <div style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
+    <div style={{width: 275, height: 51, left: 42, top: 31, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 36, wordWrap: 'break-word'}}>회원가입</div>
+    <div className="Rectangle150" style={{width: 275, height: 39, left: 42, top: 153, position: 'absolute', borderRadius: 8, border: '1px #FFC470 solid'}} />
+    <div style={{width: 195, height: 23, left: 89, top: 160, position: 'absolute'}}><span style="color: 'black', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'">전체 동의 </span><span style="color: '#838383', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'">(선택 포함)</span></div>
+    <div style={{width: 196, height: 34, left: 43, top: 93, position: 'absolute', color: 'black', fontSize: 20, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>이용약관 동의</div>
+    <div className="Group2451" style={{width: 18, height: 18, left: 58, top: 163, position: 'absolute'}}>
+        <div className="Rectangle120" style={{width: 18, height: 18, left: 0, top: 0, position: 'absolute', background: '#D9D9D9', borderRadius: 2}} />
+        <div className="Vector46" style={{width: 4.85, height: 7.62, left: 9, top: 4.85, position: 'absolute', background: '#D9D9D9', border: '2px #F8F9FA solid'}}></div>
+        <div className="Vector47" style={{width: 4.85, height: 4.15, left: 4.15, top: 8.31, position: 'absolute', background: '#D9D9D9', border: '2px #F8F9FA solid'}}></div>
+    </div>
+    <div style={{width: 182, height: 25, left: 89, top: 322, position: 'absolute'}}><span style="color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'">개인정보 수집 및 이용 동의  </span><span style="color: '#838383', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'">(선택)</span></div>
+    <div style={{width: 29, height: 25, left: 292, top: 321, position: 'absolute', textAlign: 'center', color: '#838383', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>></div>
+    <div className="Group2453" style={{width: 18, height: 18, left: 58, top: 322, position: 'absolute'}}>
+        <div className="Rectangle120" style={{width: 18, height: 18, left: 0, top: 0, position: 'absolute', background: '#D9D9D9', borderRadius: 2}} />
+        <div className="Vector46" style={{width: 4.85, height: 7.62, left: 9, top: 4.85, position: 'absolute', background: '#D9D9D9', border: '2px #F8F9FA solid'}}></div>
+        <div className="Vector47" style={{width: 4.85, height: 4.15, left: 4.15, top: 8.31, position: 'absolute', background: '#D9D9D9', border: '2px #F8F9FA solid'}}></div>
+    </div>
+    <div className="14" style={{width: 166, height: 25, left: 89, top: 214, position: 'absolute'}}><span style="color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'">만 14세 이상 이용 동의  </span><span style="color: '#FFC470', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'">(필수)</span></div>
+    <div style={{width: 29, height: 25, left: 292, top: 249, position: 'absolute', textAlign: 'center', color: '#838383', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>></div>
+    <div style={{width: 29, height: 25, left: 292, top: 285, position: 'absolute', textAlign: 'center', color: '#838383', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>></div>
+    <div className="Group2454" style={{width: 18, height: 18, left: 58, top: 214, position: 'absolute'}}>
+        <div className="Rectangle120" style={{width: 18, height: 18, left: 0, top: 0, position: 'absolute', background: '#D9D9D9', borderRadius: 2}} />
+        <div className="Vector46" style={{width: 4.85, height: 7.62, left: 9, top: 4.85, position: 'absolute', background: '#D9D9D9', border: '2px #F8F9FA solid'}}></div>
+        <div className="Vector47" style={{width: 4.85, height: 4.15, left: 4.15, top: 8.31, position: 'absolute', background: '#D9D9D9', border: '2px #F8F9FA solid'}}></div>
+    </div>
+    <div style={{width: 166, height: 25, left: 89, top: 250, position: 'absolute'}}><span style="color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'">서비스 이용약관 동의  </span><span style="color: '#FFC470', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'">(필수)</span></div>
+    <div className="Group2454" style={{width: 18, height: 18, left: 58, top: 250, position: 'absolute'}}>
+        <div className="Rectangle120" style={{width: 18, height: 18, left: 0, top: 0, position: 'absolute', background: '#D9D9D9', borderRadius: 2}} />
+        <div className="Vector46" style={{width: 4.85, height: 7.62, left: 9, top: 4.85, position: 'absolute', background: '#D9D9D9', border: '2px #F8F9FA solid'}}></div>
+        <div className="Vector47" style={{width: 4.85, height: 4.15, left: 4.15, top: 8.31, position: 'absolute', background: '#D9D9D9', border: '2px #F8F9FA solid'}}></div>
+    </div>
+    <div style={{width: 195, height: 25, left: 89, top: 286, position: 'absolute'}}><span style="color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'">개인정보 수집 및 이용 동의  </span><span style="color: '#FFC470', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'">(필수)</span></div>
+    <div className="Group2454" style={{width: 18, height: 18, left: 58, top: 286, position: 'absolute'}}>
+        <div className="Rectangle120" style={{width: 18, height: 18, left: 0, top: 0, position: 'absolute', background: '#D9D9D9', borderRadius: 2}} />
+        <div className="Vector46" style={{width: 4.85, height: 7.62, left: 9, top: 4.85, position: 'absolute', background: '#D9D9D9', border: '2px #F8F9FA solid'}}></div>
+        <div className="Vector47" style={{width: 4.85, height: 4.15, left: 4.15, top: 8.31, position: 'absolute', background: '#D9D9D9', border: '2px #F8F9FA solid'}}></div>
+    </div>
+    <div style={{width: 173, height: 25, left: 89, top: 359, position: 'absolute'}}><span style="color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'">이메일 마케팅 수신 동의  </span><span style="color: '#838383', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'">(선택)</span></div>
+    <div className="Group2453" style={{width: 18, height: 18, left: 58, top: 358, position: 'absolute'}}>
+        <div className="Rectangle120" style={{width: 18, height: 18, left: 0, top: 0, position: 'absolute', background: '#D9D9D9', borderRadius: 2}} />
+        <div className="Vector46" style={{width: 4.85, height: 7.62, left: 9, top: 4.85, position: 'absolute', background: '#D9D9D9', border: '2px #F8F9FA solid'}}></div>
+        <div className="Vector47" style={{width: 4.85, height: 4.15, left: 4.15, top: 8.31, position: 'absolute', background: '#D9D9D9', border: '2px #F8F9FA solid'}}></div>
+    </div>
+    <div style={{width: 28.88, height: 56, left: 8, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div style={{width: 28.88, height: 56, textAlign: 'center', color: '#737373', fontSize: 18, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 27, wordWrap: 'break-word'}}><</div>
+    </div>
+    <div className="Component9Variant3" style={{width: 211, height: 34, left: 74, top: 407, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div className="Frame5026" style={{width: 211, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, background: '#FEA655', borderRadius: 25, overflow: 'hidden', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+            <div style={{textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>동의하고 계속하기</div>
+        </div>
+    </div>
+</div>
+
+//스타일
+// 회원가입
+color: 'black';
+ fontSize: 24;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 36;
+ wordWrap: 'break-word'
+---
+// 전체 동의 
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// (선택 포함)
+color: '#838383';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 이용약관 동의
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 30;
+ wordWrap: 'break-word'
+---
+// 개인정보 수집 및 이용 동의  
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// (선택)
+color: '#838383';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// >
+color: '#838383';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 만 14세 이상 이용 동의  
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// (필수)
+color: '#FFC470';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// >
+color: '#838383';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// >
+color: '#838383';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 서비스 이용약관 동의  
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// (필수)
+color: '#FFC470';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// 개인정보 수집 및 이용 동의  
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// (필수)
+color: '#FFC470';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// 이메일 마케팅 수신 동의  
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// (선택)
+color: '#838383';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// <
+color: '#737373';
+ fontSize: 18;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 27;
+ wordWrap: 'break-word'
+---
+// 동의하고 계속하기
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+
+
+
+
+
+ //회원가입
+ <div style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
+    <div style={{width: 275, height: 51, left: 43, top: 31, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 36, wordWrap: 'break-word'}}>회원가입</div>
+    <div style={{width: 152, height: 34, left: 104, top: 407, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div className="Frame5026" style={{width: 152, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, background: '#FEA655', borderRadius: 25, overflow: 'hidden', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+            <div style={{textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>회원가입</div>
+        </div>
+    </div>
+    <div className="Frame5033" style={{width: 232, height: 23, paddingLeft: 26, paddingRight: 26, left: 64, top: 160, position: 'absolute', background: 'rgba(255, 255, 255, 0)', borderBottom: '0.80px #878787 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{width: 226, height: 13, color: '#BCBCBC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>이메일</div>
+    </div>
+    <div className="Frame5032" style={{width: 232, height: 23, paddingLeft: 26, paddingRight: 26, left: 64, top: 214, position: 'absolute', background: 'rgba(255, 255, 255, 0)', borderBottom: '0.80px #878787 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{width: 226, height: 13, color: '#BCBCBC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>비밀번호</div>
+    </div>
+    <div className="Frame5035" style={{width: 232, height: 23, paddingLeft: 26, paddingRight: 26, left: 64, top: 268, position: 'absolute', background: 'rgba(255, 255, 255, 0)', borderBottom: '0.80px #878787 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{width: 226, height: 13, color: '#BCBCBC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>비밀번호 확인</div>
+    </div>
+    <div style={{width: 28.88, height: 56, left: 8, top: -0, position: 'absolute', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div style={{width: 28.88, height: 56, textAlign: 'center', color: '#737373', fontSize: 18, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 27, wordWrap: 'break-word'}}><</div>
+    </div>
+    <div className="Frame5050" style={{left: 38, top: 470, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{width: 110, height: 19, color: '#757575', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'}}>이미 계정이 있나요?</div>
+        <div style={{color: '#757575', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', textDecoration: 'underline', lineHeight: 18, wordWrap: 'break-word'}}>로그인하기</div>
+    </div>
+</div>
+
+//스타일
+// 회원가입
+color: 'black';
+ fontSize: 24;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 36;
+ wordWrap: 'break-word'
+---
+// 회원가입
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 이메일
+color: '#BCBCBC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 비밀번호
+color: '#BCBCBC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 비밀번호 확인
+color: '#BCBCBC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// <
+color: '#737373';
+ fontSize: 18;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 27;
+ wordWrap: 'break-word'
+---
+// 이미 계정이 있나요?
+color: '#757575';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// 로그인하기
+color: '#757575';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ textDecoration: 'underline';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+
+
+ //회원가입 완료
+ <div style={{width: '100%', height: '100%', position: 'relative', transform: 'rotate(180deg)', transformOrigin: '0 0', background: '#F8F9FA'}}>
+    <div style={{width: 237, left: 297, top: 250, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: '0 0', textAlign: 'center', color: 'black', fontSize: 20, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>축하드립니다 !<br/>회원가입이 완료되었습니다.</div>
+    <div className="Group2452" style={{width: 164.42, left: 255, top: 47, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: '0 0'}}>
+        <div className="Truffle" style={{width: 126, height: 55, left: 0, top: 0, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: '0 0', color: 'black', fontSize: 40, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 60, wordWrap: 'break-word'}}>Truffle</div>
+        <img className="UntitledArtwork22" style={{width: 38.42, height: 47.79, left: -126, top: 7, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: '0 0'}} src="https://via.placeholder.com/38x48" />
+    </div>
+    <div style={{width: 151, height: 34, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, left: 256, top: 405, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: '0 0', background: '#FEA655', borderRadius: 25, overflow: 'hidden', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>로그인</div>
+    </div>
+</div>
+
+//스타일
+// 축하드립니다 !<br/>회원가입이 완료되었습니다.
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 30;
+ wordWrap: 'break-word'
+---
+// Truffle
+color: 'black';
+ fontSize: 40;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 60;
+ wordWrap: 'break-word'
+---
+// 로그인
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+
+
+ //첫 예산설정
+ <div style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
+    <div style={{width: 295, height: 30, left: 33, top: 136, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 20, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>이번 달 식비 예산을 설정해주세요.</div>
+    <div className="1" style={{width: 232, height: 17, left: 62, top: 175, position: 'absolute', textAlign: 'center', color: '#727272', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'}}>매달 1회 변경 가능하니 신중하게 해주세요 !</div>
+    <div className="Frame5033" style={{width: 232, height: 23, paddingLeft: 26, paddingRight: 26, left: 64, top: 231, position: 'absolute', background: 'rgba(255, 255, 255, 0)', borderBottom: '0.80px #878787 solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div className="000" style={{width: 226, height: 13, color: '#BCBCBC', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 22.50, wordWrap: 'break-word'}}>300,000원</div>
+    </div>
+    <div style={{width: 28.88, height: 56, left: 8, top: -0, position: 'absolute', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div style={{width: 28.88, height: 56, textAlign: 'center', color: '#737373', fontSize: 18, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 27, wordWrap: 'break-word'}}><</div>
+    </div>
+    <div className="Component12Variant3" style={{width: 152, height: 34, left: 104, top: 407, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div className="Frame5025" style={{width: 152, paddingLeft: 48, paddingRight: 48, paddingTop: 10, paddingBottom: 10, background: '#FEA655', borderRadius: 25, overflow: 'hidden', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+            <div style={{textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>시작하기</div>
+        </div>
+    </div>
+</div>
+
+//스타일
+// 이번 달 식비 예산을 설정해주세요.
+color: 'black';
+ fontSize: 20;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 30;
+ wordWrap: 'break-word'
+---
+// 매달 1회 변경 가능하니 신중하게 해주세요 !
+color: '#727272';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+---
+// 300,000원
+color: '#BCBCBC';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// <
+color: '#737373';
+ fontSize: 18;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 27;
+ wordWrap: 'break-word'
+---
+// 시작하기
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
