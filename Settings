@@ -1,0 +1,323 @@
+//설정
+<div className="SettingPage" style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
+    <div className="Rectangle175" style={{width: 311, height: 44, left: 27, top: 210, position: 'absolute', background: 'white', borderRadius: 5}} />
+    <div className="Rectangle177" style={{width: 311, height: 44, left: 25, top: 254, position: 'absolute', background: 'white', borderRadius: 5}} />
+    <div className="Rectangle178" style={{width: 311, height: 44, left: 25, top: 300, position: 'absolute', background: 'white', borderRadius: 5}} />
+    <div className="Rectangle179" style={{width: 311, height: 44, left: 25, top: 346, position: 'absolute', background: 'white', borderRadius: 5}} />
+    <div className="Toggle" style={{width: 40, height: 23, left: 278, top: 222, position: 'absolute'}}>
+        <div className="Rectangle54" style={{width: 17.14, height: 23, left: 11.43, top: 0, position: 'absolute', background: '#D9D9D9'}} />
+        <div className="Ellipse12" style={{width: 22.86, height: 23, left: 17.14, top: 0, position: 'absolute', background: '#D9D9D9', border: '1.50px #D9D9D9 solid'}}></div>
+        <div className="Ellipse10" style={{width: 22.86, height: 23, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 9999, border: '1px #D9D9D9 solid'}} />
+    </div>
+    <div style={{width: 287, height: 27, left: 40, top: 221, position: 'absolute', color: 'black', fontSize: 15.50, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 23.25, wordWrap: 'break-word'}}>알림</div>
+    <div style={{width: 287, height: 27, left: 38, top: 265, position: 'absolute', color: 'black', fontSize: 15.50, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 23.25, wordWrap: 'break-word'}}>비밀번호 변경</div>
+    <div style={{width: 287, height: 27, left: 38, top: 311, position: 'absolute', color: 'black', fontSize: 15.50, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 23.25, wordWrap: 'break-word'}}>이용약관</div>
+    <div style={{width: 287, height: 27, left: 38, top: 357, position: 'absolute', color: 'black', fontSize: 15.50, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 23.25, wordWrap: 'break-word'}}>로그아웃</div>
+    <div className="Rectangle180" style={{width: 311, height: 44, left: 25, top: 392, position: 'absolute', background: 'white', borderRadius: 5}} />
+    <div style={{width: 287, height: 27, left: 38, top: 403, position: 'absolute', color: 'black', fontSize: 15.50, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 23.25, wordWrap: 'break-word'}}>탈퇴하기</div>
+    <div className="Frame5066" style={{width: 311, height: 95, left: 25, top: 86, position: 'absolute'}}>
+        <div className="Rectangle5" style={{width: 311, height: 95, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 3}}></div>
+        <div className="000" style={{left: 17, top: 18, position: 'absolute', color: 'black', fontSize: 25, fontFamily: 'Inter', fontWeight: '500', lineHeight: 37.50, wordWrap: 'break-word'}}>300,000</div>
+        <div style={{width: 149, height: 17, left: 19, top: 66, position: 'absolute', color: '#A3A3A3', fontSize: 11, fontFamily: 'Inter', fontWeight: '500', lineHeight: 16.50, wordWrap: 'break-word'}}>이번 달 예산을 설정해주세요 !</div>
+        <div style={{width: 54, height: 22, left: 244, top: 61, position: 'absolute'}}>
+            <div className="Rectangle45" style={{width: 54, height: 22, left: 0, top: 0, position: 'absolute', borderRadius: 2, border: '1px #FEA655 solid'}} />
+            <div style={{width: 54, height: 19.80, left: 0, top: 1.10, position: 'absolute', textAlign: 'center', color: '#FEA655', fontSize: 11, fontFamily: 'NanumGothic', fontWeight: '400', textTransform: 'uppercase', lineHeight: 12, letterSpacing: 1.50, wordWrap: 'break-word'}}>수정</div>
+        </div>
+        <div style={{width: 41, height: 37, left: 121, top: 18, position: 'absolute', color: 'black', fontSize: 25, fontFamily: 'Inter', fontWeight: '500', lineHeight: 37.50, wordWrap: 'break-word'}}>원</div>
+    </div>
+    <div className="Frame5" style={{width: 54, height: 46, left: 0, top: 0, position: 'absolute'}} />
+    <div className="Frame5067" style={{width: 54, height: 46, left: 0, top: 0, position: 'absolute'}} />
+    <div className="NavigationBar" style={{width: 360, height: 59, left: 0, top: 581, position: 'absolute', background: 'white', borderTopLeftRadius: 15, borderTopRightRadius: 15, overflow: 'hidden', border: '0.50px #CCCCCC solid', justifyContent: 'center', alignItems: 'center', gap: 30, display: 'inline-flex'}}>
+        <div className="HomeIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Shape" style={{width: 30.14, height: 31, border: '1.50px #111111 solid'}}></div>
+        </div>
+        <div className="CalIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Shape" style={{width: 27, height: 29.49, border: '1.40px black solid'}}></div>
+        </div>
+        <div className="RecipeCion" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Group2631" style={{width: 31, height: 31, position: 'relative'}}>
+                <div className="Vector5" style={{width: 14.09, height: 22.31, left: 0, top: 8.11, position: 'absolute', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 0, height: 16.73, left: 4.88, top: 13.69, position: 'absolute', border: '1.50px black solid'}}></div>
+                <div className="Vector14" style={{width: 4.34, height: 15.72, left: 4.88, top: 13.69, position: 'absolute', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 0, height: 16.73, left: 9.21, top: 13.69, position: 'absolute', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 14.09, height: 8.11, left: 0, top: 0, position: 'absolute', border: '1.50px black solid'}}></div>
+                <div className="Shape" style={{width: 14.20, height: 28.97, left: 30.73, top: 31, position: 'absolute', transform: 'rotate(-179.53deg)', transformOrigin: '0 0', border: '1.50px black solid'}}></div>
+            </div>
+        </div>
+        <div className="SettingIcon" style={{paddingLeft: 14, paddingRight: 14, paddingTop: 13, paddingBottom: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div className="Group2480" style={{width: 32.50, height: 32.50, position: 'relative', transform: 'rotate(-180deg)', transformOrigin: '0 0'}}>
+                <div className="Ellipse29" style={{width: 26.90, height: 26.90, left: -29.70, top: -2.80, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Vector49" style={{width: 7.28, height: 3.92, left: -12.61, top: -0, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Vector53" style={{width: 7.25, height: 4.08, left: -25.08, top: -2.10, position: 'absolute', transform: 'rotate(-135deg)', transformOrigin: '0 0', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Vector56" style={{width: 7.28, height: 3.77, left: -7.25, top: -30.24, position: 'absolute', transform: 'rotate(45deg)', transformOrigin: '0 0', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Vector54" style={{width: 7.25, height: 4.08, left: -2.30, top: -7.23, position: 'absolute', transform: 'rotate(135deg)', transformOrigin: '0 0', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Vector55" style={{width: 7.28, height: 3.77, left: -30.40, top: -25.09, position: 'absolute', transform: 'rotate(-45deg)', transformOrigin: '0 0', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Vector50" style={{width: 7.28, height: 3.92, left: -19.89, top: -32.50, position: 'absolute', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Vector51" style={{width: 7.56, height: 4.08, left: 0, top: -20.01, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Vector52" style={{width: 7.28, height: 3.92, left: -32.50, top: -12.61, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', background: 'black', border: '1.50px black solid'}}></div>
+                <div className="Ellipse30" style={{width: 13.45, height: 13.45, left: -9.53, top: -9.53, position: 'absolute', transform: 'rotate(-180deg)', transformOrigin: '0 0', background: 'white', border: '1.50px black solid'}}></div>
+            </div>
+        </div>
+    </div>
+    <div className="Rectangle118" style={{width: 360, height: 57, left: 0, top: 0, position: 'absolute', background: '#F8F9FA'}} />
+    <div className="Setting" style={{width: 142, height: 34, left: 22, top: 19, position: 'absolute', color: '#474646', fontSize: 24, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 36, wordWrap: 'break-word'}}>Setting</div>
+</div>
+
+//스타일
+// 알림
+color: 'black';
+ fontSize: 15.50;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 23.25;
+ wordWrap: 'break-word'
+---
+// 비밀번호 변경
+color: 'black';
+ fontSize: 15.50;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 23.25;
+ wordWrap: 'break-word'
+---
+// 이용약관
+color: 'black';
+ fontSize: 15.50;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 23.25;
+ wordWrap: 'break-word'
+---
+// 로그아웃
+color: 'black';
+ fontSize: 15.50;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 23.25;
+ wordWrap: 'break-word'
+---
+// 탈퇴하기
+color: 'black';
+ fontSize: 15.50;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 23.25;
+ wordWrap: 'break-word'
+---
+// 300,000
+color: 'black';
+ fontSize: 25;
+ fontFamily: 'Inter';
+ fontWeight: '500';
+ lineHeight: 37.50;
+ wordWrap: 'break-word'
+---
+// 이번 달 예산을 설정해주세요 !
+color: '#A3A3A3';
+ fontSize: 11;
+ fontFamily: 'Inter';
+ fontWeight: '500';
+ lineHeight: 16.50;
+ wordWrap: 'break-word'
+---
+// 수정
+color: '#FEA655';
+ fontSize: 11;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ textTransform: 'uppercase';
+ lineHeight: 12;
+ letterSpacing: 1.50;
+ wordWrap: 'break-word'
+---
+// 원
+color: 'black';
+ fontSize: 25;
+ fontFamily: 'Inter';
+ fontWeight: '500';
+ lineHeight: 37.50;
+ wordWrap: 'break-word'
+---
+// Setting
+color: '#474646';
+ fontSize: 24;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 36;
+ wordWrap: 'break-word'
+
+
+//예산수정
+<div style={{width: '100%', height: '100%', position: 'relative', background: '#F8F9FA'}}>
+    <div className="Frame5128" style={{width: 296, paddingLeft: 26, paddingRight: 26, left: 32, top: 221, position: 'absolute', opacity: 0.90, borderBottom: '1px #ABABAB solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{width: 234, textAlign: 'center', color: '#ADADAD', fontSize: 17, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 25.50, wordWrap: 'break-word'}}>0 원</div>
+        <div className="Erase" style={{width: 16, height: 16, position: 'relative'}}>
+            <div className="Ellipse7" style={{width: 16, height: 16, left: 0, top: 0, position: 'absolute', background: '#BCBCBC', borderRadius: 9999}} />
+            <div className="Vector19" style={{width: 6.40, height: 6.40, left: 4.80, top: 4.80, position: 'absolute', border: '1.50px white solid'}}></div>
+        </div>
+    </div>
+    <img className="UntitledArtwork24" style={{width: 51, height: 64, left: 154, top: 38, position: 'absolute'}} src="https://via.placeholder.com/51x64" />
+    <div className="Frame5129" style={{left: 50, top: 488, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div className="Rectangle62" style={{width: 116, height: 38, borderRadius: 25, border: '2px #D9D9D9 solid'}} />
+        <div style={{width: 102, height: 30, textAlign: 'center', color: '#D4D4D4', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', textTransform: 'uppercase', lineHeight: 12, letterSpacing: 1.50, wordWrap: 'break-word'}}>취소</div>
+    </div>
+    <div className="Group2595" style={{width: 116, height: 38, left: 193, top: 488, position: 'absolute'}}>
+        <div className="Rectangle61" style={{width: 116, height: 38, left: 0, top: 0, position: 'absolute', background: 'rgba(229, 229, 229, 0)', borderRadius: 25, border: '2px #FEA655 solid'}} />
+        <div style={{width: 63, height: 38, left: 26, top: 0, position: 'absolute', textAlign: 'center', color: '#FEA655', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>확인</div>
+    </div>
+</div>
+
+//스타일
+// 0 원
+color: '#ADADAD';
+ fontSize: 17;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 25.50;
+ wordWrap: 'break-word'
+---
+// 취소
+color: '#D4D4D4';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ textTransform: 'uppercase';
+ lineHeight: 12;
+ letterSpacing: 1.50;
+ wordWrap: 'break-word'
+---
+// 확인
+color: '#FEA655';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+
+
+//탈퇴확인 팝업
+<div style={{width: '100%', height: '100%', position: 'relative'}}>
+    <div className="Rectangle5" style={{width: 360, height: 201, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 3}}></div>
+    <div style={{width: 122, height: 31, left: 20, top: 19, position: 'absolute', color: 'black', fontSize: 15, fontFamily: 'Inter', fontWeight: '500', lineHeight: 22.50, wordWrap: 'break-word'}}>탈퇴하기</div>
+    <div style={{width: 258, height: 35, left: 31, top: 66, position: 'absolute', color: 'black', fontSize: 15, fontFamily: 'Inter', fontWeight: '500', lineHeight: 22.50, wordWrap: 'break-word'}}>정말 탈퇴 하실 건가요?</div>
+    <div className="Rectangle56" style={{width: 116, height: 38, left: 44, top: 112, position: 'absolute', background: '#FFA95A', borderRadius: 25}} />
+    <div className="Rectangle58" style={{width: 116, height: 38, left: 199, top: 112, position: 'absolute', background: '#D9D9D9', borderRadius: 25}} />
+    <div style={{width: 63, height: 27, left: 225, top: 121, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>아니요</div>
+    <div className="Group2634" style={{width: 116, height: 38, left: 199, top: 112, position: 'absolute'}}>
+        <div className="Rectangle60" style={{width: 116, height: 38, left: 0, top: 0, position: 'absolute', background: '#D9D9D9', borderRadius: 25}} />
+        <div style={{width: 63, height: 27, left: 26, top: 9, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>아니요</div>
+    </div>
+    <div className="Group2633" style={{width: 116, height: 38, left: 44, top: 112, position: 'absolute'}}>
+        <div className="Rectangle59" style={{width: 116, height: 38, left: 0, top: 0, position: 'absolute', background: '#FFA95A', borderRadius: 25}} />
+        <div style={{width: 63, height: 27, left: 26, top: 9, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>네</div>
+    </div>
+</div>
+
+//스타일
+// 탈퇴하기
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'Inter';
+ fontWeight: '500';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 정말 탈퇴 하실 건가요?
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'Inter';
+ fontWeight: '500';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 아니요
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 아니요
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 네
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+
+
+//로그아웃 확인 팝업
+<div style={{width: '100%', height: '100%', position: 'relative'}}>
+    <div className="Rectangle5" style={{width: 360, height: 201, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 3}}></div>
+    <div style={{width: 122, height: 31, left: 20, top: 19, position: 'absolute', color: 'black', fontSize: 15, fontFamily: 'Inter', fontWeight: '500', lineHeight: 22.50, wordWrap: 'break-word'}}>로그아웃</div>
+    <div style={{width: 258, height: 35, left: 31, top: 66, position: 'absolute', color: 'black', fontSize: 15, fontFamily: 'Inter', fontWeight: '500', lineHeight: 22.50, wordWrap: 'break-word'}}>정말 로그아웃 하실 건가요?</div>
+    <div className="Group2635" style={{width: 116, height: 38, left: 199, top: 112, position: 'absolute'}}>
+        <div className="Rectangle58" style={{width: 116, height: 38, left: 0, top: 0, position: 'absolute', background: '#D9D9D9', borderRadius: 25}} />
+        <div style={{width: 63, height: 27, left: 26, top: 9, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>아니요</div>
+    </div>
+    <div className="Group2632" style={{width: 116, height: 38, left: 44, top: 112, position: 'absolute'}}>
+        <div className="Rectangle56" style={{width: 116, height: 38, left: 0, top: 0, position: 'absolute', background: '#FFA95A', borderRadius: 25}} />
+        <div style={{width: 63, height: 27, left: 26, top: 9, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 15, fontFamily: 'NanumGothic', fontWeight: '700', lineHeight: 22.50, wordWrap: 'break-word'}}>네</div>
+    </div>
+</div>
+
+//스타일
+// 로그아웃
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'Inter';
+ fontWeight: '500';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 정말 로그아웃 하실 건가요?
+color: 'black';
+ fontSize: 15;
+ fontFamily: 'Inter';
+ fontWeight: '500';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 아니요
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+---
+// 네
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'NanumGothic';
+ fontWeight: '700';
+ lineHeight: 22.50;
+ wordWrap: 'break-word'
+
+
+//예산수정 횟수 초과 팝업
+<div className="Frame5175" style={{width: '100%', height: '100%', position: 'relative'}}>
+    <div className="Rectangle89" style={{width: 216, height: 62, left: 10, top: 0, position: 'absolute', background: '#D9D9D9', borderRadius: 13}} />
+    <div className="1" style={{width: 235, height: 42.03, left: 0, top: 14, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 12, fontFamily: 'NanumGothic', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'}}>예산 수정은 월 1회만 가능해요 !<br/>이번달 예산수정 횟수를 초과했네요.</div>
+</div>
+
+//스타일
+// 예산 수정은 월 1회만 가능해요 !<br/>이번달 예산수정 횟수를 초과했네요.
+color: 'black';
+ fontSize: 12;
+ fontFamily: 'NanumGothic';
+ fontWeight: '400';
+ lineHeight: 18;
+ wordWrap: 'break-word'
+
+
+//
