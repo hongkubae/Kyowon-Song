@@ -1,0 +1,89 @@
+
+<div style="width: 360px; height: 640px; position: relative; background: #F8F9FA">
+  
+  
+    <!--상위탭-->
+    <nav id="tab-button-nav">
+      <!--냉장고-->
+        <div style="width: 360px; height: 36px; left: 0px; top: -1px; position: absolute">
+          <div style="left: 0px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+            <div style="width: 120px; height: 36px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+              <button class="tab-button" data-tab-section="tab-section-1" style="width: 120px; height: 36px; padding-left: 29px; padding-right: 29px; padding-top: 11px; padding-bottom: 11px; background: white; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <img src="file:///C:/Users/LG/Downloads/%EB%83%89%EC%9E%A5%EA%B3%A0_%EB%83%89%20(1).svg" alt="냉장고" />
+              </button>
+            </div>
+          </div>
+        <!--레시피-->
+          <div style="left: 120px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+            <div style="width: 120px; height: 36px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+              <button class="tab-button" data-tab-section="tab-section-2" style="width: 120px; height: 36px; padding-left: 29px; padding-right: 29px; padding-top: 11px; padding-bottom: 11px; background: white; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <img src="file:///C:/Users/LG/Downloads/%EB%83%89%EC%9E%A5%EA%B3%A0_%EB%83%89%20(2).svg" alt="레시피"/>
+              </button>
+            </div>
+          </div>
+        <!--북마크-->
+          <div style="left: 240px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+            <div style="width: 120px; height: 36px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+              <button class="tab-button" data-tab-section="tab-section-3" style="width: 120px; height: 36px; padding-left: 29px; padding-right: 29px; padding-top: 11px; padding-bottom: 11px; background: white; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <img src="file:///C:/Users/LG/Downloads/%EB%83%89%EC%9E%A5%EA%B3%A0_%EB%83%89%20(3).svg" alt="북마크"/>
+              </button>
+            </div>
+          </div>
+          <img style="width: 12px; height: 12px; left: 222px; top: 24px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0" src="file:///C:/Users/LG/Downloads/%EB%8A%90%EB%82%8C%ED%91%9C%20(4).svg"/>
+    </nav>
+      
+ <!--요리제목 네모길이가 텍스트길이 따라가게 어케하지-->
+    <!--창을 칠 때 border가 너무 두꺼운데 괜찮은지-->
+    <div>
+        <input class="Frame5167" style="font-size: 17px; border: none; width: 150px; height: 34px; padding-left: 6px; padding-right: 6px; padding-top: 7px; padding-bottom: 7px; left: 21px; top: 206px; position: absolute; background: white; border-radius: 10px; overflow: hidden; justify-content: center; align-items: center; gap: 10px; display: inline-flex" placeholder="요리 이름">
+        <div class="Line39" style="width: 138px; height: 0px; left: 27px; top: 237px; position: absolute; border: 1px #FEA655 solid"></div>
+    </div>
+
+
+        <!--사진추가-->
+        <div class="Rectangle173" style="width: 112px; height: 125px; left: 227px; top: 393px; position: absolute; background: white; border-radius: 10px"></div>
+        <button type="button" id="addPhoto" style="border: none; width: 324px; height: 139px; left: 18px; top: 55px; position: absolute; background: #EDEDED; border-radius: 7px">사진 추가</button>
+        <!--필요한 재료-->
+        <button class="Rectangle140" style="border: none; width: 193px; height: 265px; left: 23px; top: 256px; position: absolute; background: white; border-radius: 10px">필요한 재료</button>
+        <!--조리시간-->
+        <button class="Rectangle172" style="border: none; width: 112px; height: 128px; left: 227px; top: 253px; position: absolute; background: white; border-radius: 10px">
+            <img class="조리시간" style="top: 28px; position: relative" src="file:///C:/Users/LG/Downloads/Group%202489.svg"/>
+        </button>
+
+
+
+        <img class="foodIcon" style="width: 24px; height: 24px; left: 35px; top: 265px; position: absolute" src="file:///C:/Users/LG/Downloads/image%2079.svg" />
+        <img class="clockIcon" style="width: 24px; height: 24px; left: 271px; top: 265px; position: absolute" src="file:///C:/Users/LG/Downloads/image%2080.svg" />
+        <div style="width: 47px; left: 259px; top: 407px; position: absolute; text-align: center; color: black; font-size: 15px; font-family: NanumGothic; font-weight: 400; word-wrap: break-word">난이도</div>
+        
+        <!--뒤로가기-->
+        <div class="back-btn" style=" left: 44px; top: 533px; position: absolute; border-radius: 25px; overflow: hidden; justify-content: center; align-items: center; display: inline-flex">
+          <button type="button" id="back-btn" style="background: transparent; border:none">
+            <img src="file:///C:/Users/LG/Downloads/Component%2018.svg" alt="뒤로가기" />
+          </button>
+        </div>
+        <!--다음-->
+        <div class="next-btn" style="left: 203px; top: 533px; position: absolute; border-radius: 25px; overflow: hidden; justify-content: center; align-items: center; display: inline-flex">
+          <button type="button" id="next-btn" style="background: transparent; border:none">
+            <img src="file:///C:/Users/LG/Downloads/%EB%B3%B8%EC%9D%B8%20%EC%9D%B8%EC%A6%9D%ED%95%98%EA%B8%B0%20-%20%ED%84%B0%EC%B9%98%EB%AA%A8%EC%85%98%20(1).svg" alt="다음" />
+          </button>
+        </div>
+    
+        <!--별컴포넌트 어케하지..-->
+        <div class="Component44" style="width: 89px; height: 45px; left: 239px; top: 448px; position: absolute">
+            <img class="stars" src="file:///C:/Users/LG/Downloads/Component%2044.svg" />
+        </div>
+
+        <div class="NavigationBar" style="width: 360px; height: 59px; left: 0px; top: 581px; position: absolute; background: white; border-top-left-radius: 15px; border-top-right-radius: 15px; overflow: hidden; border: 0.50px #CCCCCC solid; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+          <img class="HomeIcon" style="padding-left: 2px; padding-right: 2px; padding-top: 13px; padding-bottom: 13px; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex" src="file:///C:/Users/LG/Downloads/home%20icon%20(2).svg"/>
+          <img class="CalIcon" style="padding-left: 2px; padding-right: 2px; padding-top: 13px; padding-bottom: 13px; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex" src="file:///C:/Users/LG/Downloads/cal%20icon.svg"/>
+          <img class="RecipeCion" style="padding-left: 2px; padding-right: 2px; padding-top: 13px; padding-bottom: 13px; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex" src="file:///C:/Users/LG/Downloads/recipe%20cion.svg"/>
+          <img class="SettingIcon" style="padding-left: 2px; padding-right: 2px; padding-top: 13px; padding-bottom: 13px; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex" src="file:///C:/Users/LG/Downloads/Group%202480%20(1).svg"/>
+        </div>
+    
+        </div>
+      </div>
+    
+      <script>
+        
+      </script>
