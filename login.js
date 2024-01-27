@@ -278,6 +278,9 @@ const styles = StyleSheet.create({
     width: 232,
     marginBottom: 30,
     color: '#878787',
+    borderTopWidth: 0,
+    borderLeftWidth: 0,
+    borderRightWidth:0,
   },
   save: {
     bottom: 15,
@@ -350,6 +353,9 @@ const styles = StyleSheet.create({
     top: 120,
     marginBottom: 40,
     color: '#878787',
+    borderTopWidth: 0,
+    borderLeftWidth: 0,
+    borderRightWidth:0,
   },
   buttonS: {
     top: 193,
@@ -377,6 +383,9 @@ const styles = StyleSheet.create({
     top: 80,
     marginBottom: 40,
     color: '#878787',
+    borderTopWidth: 0,
+    borderLeftWidth: 0,
+    borderRightWidth:0,
   },
   buttonP: {
     top: 93,
@@ -406,6 +415,9 @@ const styles = StyleSheet.create({
     right: 35,
     marginBottom: 10,
     color: '#878787',
+    borderTopWidth: 0,
+    borderLeftWidth: 0,
+    borderRightWidth:0,
   },
   smallButton: {
     left: 85,
