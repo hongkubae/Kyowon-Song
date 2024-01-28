@@ -6,7 +6,7 @@ import {
   View,
   TouchableOpacity,
   TextInput,
-  StyleSheet,
+  StyleSheet, 
 } from 'react-native';
 import { Img } from './assets/eye.png';
 
@@ -192,18 +192,68 @@ function SuccessPW () {
 
 
 function ForgotPW() {
-  const [text, onChangeText] = React.useState('');
+  const { useState } = React;
 
+  const [text, onChangeText] = useState('');
   const [number, onChangeNumber] = useState('');
   const [password, setPassword] = useState('');
   const [password2, setPassword2] = useState('');
   const [passwordContent, setPasswordContent] = useState('');
   const [passwordContent1, setPasswordContent1] = useState('');
+
+let reg = /^(?=.*[a-zA-Z])(?=.*[\W_])(?=.*[!@#$%^*+=-])(?=.*[0-9]).{8,15}$/;
+
+
+  function pwCondition(password) {
+    return reg.test(password);
+  }
+
+
+
+  let handlePasswordChange = (event) => {
+    let value = event.target.value;
+    setPassword(value);
+
+
+    if (value && !pwCondition(value)) {
+      setPasswordContent1('8-15자 이내의 영문, 숫자, 특수문자를 조합해주세요.');
+    } else {
+      setPasswordContent1('');
+    }
+  };
+
+
+  let handlePassword2Change = (event) => {
+    let value = event.target.value;
+    setPassword2(value);
+
+
+    if (password !== value) {
+      setPasswordContent('비밀번호가 일치하지 않습니다');
+    } else {
+      setPasswordContent('');
+    }
+  };
+
+
+  let isPassword = (value1, value2) => {
+    return value1 === value2;
+  };
+
+
+  let handleFormSubmit = (event) => {
+    event.preventDefault();
+    if (!isPassword(password, password2)) {
+      alert('모든 항목을 제대로 입력해주십시오');
+    }
+  };
+
+
   return(
     <View style={styles.container}>
       <TouchableOpacity
         style={styles.back}
-        onPress={() => navigation.navigate('Back')}>
+        onPress={() => navigation.goBack()}>
         <Text style={styles.backBTN}> ⟨ </Text>
       </TouchableOpacity>
 
@@ -228,8 +278,8 @@ function ForgotPW() {
       </TouchableOpacity>
       <TextInput
         style={styles.inputRe}
-        onChangeText={onChangeText}
-        value={text}
+        onChangeNumber={onChangeNumber}
+        value={number}
         placeholder="인증번호"
         keyboardType="numeric"
       />
@@ -238,25 +288,29 @@ function ForgotPW() {
         onPress={() => navigation.navigate('Login')}>
         <Text style={styles.buttonText}>확인</Text>
       </TouchableOpacity>
+      
       <TextInput
         style={styles.inputP}
-        onChangeText={onChangeText}
-        value={text}
+        setPassword={setPassword}
+        value={password}
         placeholder="비밀번호"
         keyboardType="email"
+        onChange={handlePasswordChange}
       />
+      
       <TextInput
         style={styles.inputP}
-        onChangeText={onChangeText}
-        value={text}
+        setPassword2={setPassword2}
+        value={password2}
         placeholder="비밀번호 확인"
         keyboardType="email"
+        onChange={handlePassword2Change}
       />
 
       <TouchableOpacity
         style={styles.buttonP}
         onPress={() => navigation.navigate('Login')}>
-        <Text style={styles.buttonText}>비밀번호 변경</Text>
+        <Text style={styles.buttonText} type="submit">비밀번호 변경</Text>
       </TouchableOpacity>
       
     </View>
