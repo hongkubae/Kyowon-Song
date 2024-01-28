@@ -193,6 +193,12 @@ function SuccessPW () {
 
 function ForgotPW() {
   const [text, onChangeText] = React.useState('');
+
+  const [number, onChangeNumber] = useState('');
+  const [password, setPassword] = useState('');
+  const [password2, setPassword2] = useState('');
+  const [passwordContent, setPasswordContent] = useState('');
+  const [passwordContent1, setPasswordContent1] = useState('');
   return(
     <View style={styles.container}>
       <TouchableOpacity
