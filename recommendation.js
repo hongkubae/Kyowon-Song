@@ -9,6 +9,7 @@ const data = [
 
 
   return (
+  const {id, food, time} = props
 
     <ScrollView style={styles.container}>
       <View>
