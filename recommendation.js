@@ -7,9 +7,6 @@ const data = [
 
 <TextInput style={{ borderWidth: 0, width: 300, height: 20, textAlign: 'left', color: '#9C9C9C', fontSize: 14, fontFamily: 'NanumGothic', fontWeight: '400', flexWrap: 'wrap' }} placeholder="검색" />
 
-const Post = props => {
-  const [isHungry, setIsHungry] = useState(true);
-  const {id, food, time} = props
 
   return (
 
