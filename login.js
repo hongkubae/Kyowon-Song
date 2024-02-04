@@ -30,6 +30,7 @@ export default App; */
 
 function Loginpg({ navigation }) {
 const [text, onChangeText] = React.useState('');
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Truffle</Text>
@@ -110,16 +111,37 @@ function Budgetpg() {
 
 
 function SignupPg() {
-  const { useState } = React;
 
-  const [text, onChangeText] = useState('');
+  const { useState } = React;
+{/* catch 오류문구 */}
+const [validation, setValidation] = useState("");
+  {/* async try-catch 추가해야함 */}
+
   const [password, setPassword] = useState('');
   const [password2, setPassword2] = useState('');
   const [passwordContent, setPasswordContent] = useState('');
   const [passwordContent1, setPasswordContent1] = useState('');
+  const [email, setEmail] = useState('');
+  const [emailContent, setEmailContent] = useState('');
 
+const validateEmail = email => {
+  {/* 이메일 조건설정 */}
+    const regex = /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/;
+    return regex.test(email);
+}
+const handleEmailChange = (val) => {
+    setEmail(val);
+
+    if (val && !validateEmail(val)) {
+      setEmailContent('허용되지 않는 이메일 형식입니다.');
+    } 
+    else {
+      setEmailContent('');
+    }
+  };
+
+{/* 비밀번호 조건설정 */}
   const reg = /^(?=.*[a-zA-Z])(?=.*[\W_])(?=.*[!@#$%^*+=-])(?=.*[0-9]).{8,15}$/;
-
   const pwCondition = (password) => {
     return reg.test(password);
   };
@@ -167,21 +189,25 @@ function SignupPg() {
       
       <TextInput
         style={styles.inputS}
-        onChangeText={onChangeText}
-        value={text}
         placeholder="이메일"
         keyboardType="email"
+        val={email}
+          onChangeText={handleEmailChange}
       />
+
+<Text style={styles.errTxt}>{validation}</Text>
+    {/* 위가 catch에서 오류보내면 들어가는 부분. 아래 텍스트 박스는 함수추가되면 지울것. */}
+    <Text style={styles.errTxt}>{emailContent}</Text>
       <TextInput
         style={styles.inputS}
         setPassword={setPassword}
-        value={password}
         placeholder="비밀번호"
         keyboardType="email"
         secureTextEntry={true}
           value={password}
           onChangeText={handlePasswordChange}
       />
+      <Text style={styles.errTxt}>{passwordContent1}</Text>
       <TextInput
         style={styles.inputS}
         placeholder="비밀번호 확인"
@@ -190,16 +216,12 @@ function SignupPg() {
           value={password2}
           onChangeText={handlePassword2Change}
       />
-      <Text style={{    top: 26,
-    fontSize: 12,
-    color: '#ff0000',}}>{passwordContent1}</Text>
-      <Text style={{top: 80,
-    fontSize: 12,
-    color: '#ff0000',}}>{passwordContent}</Text>
+      
+      <Text style={styles.errTxt}>{passwordContent}</Text>
 
       <TouchableOpacity
         style={styles.buttonS}
-        onPress={() => navigation.SignupPg()}>
+        >
         <Text style={styles.buttonText}>회원가입</Text>
       </TouchableOpacity>
       <TouchableOpacity
@@ -415,7 +437,7 @@ const handleClick = () => {
         placeholder="비밀번호"
         keyboardType="email"
         secureTextEntry={true}
-          value={password}
+          
           onChangeText={handlePasswordChange}
       />
       <Text style={styles.passwordContent}>{passwordContent1}</Text>
@@ -620,7 +642,15 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: '#ff0000',
   },
+  errTxt: {
+    top: 100,
+    fontSize: 12,
+    color: '#ff0000',
+  },
 });
+
+
+export default SignupPg;
 
 
 export default ForgotPW;
