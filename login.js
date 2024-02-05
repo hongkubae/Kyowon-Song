@@ -9,8 +9,8 @@ import {
   StyleSheet, Email
 } from 'react-native';
 
-import Eye from './components/AssetExample';
-
+import { AuthFunctions } from './authFunctions';
+import { dbFunctions } from './dbFunctions';
 
 /*
 const Stack = createNativeStackNavigator();
