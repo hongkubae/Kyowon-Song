@@ -325,12 +325,6 @@ const handleClick = () => {
       setIsClicked(true); // true일 땐 변경될 이미지 src
     }
 }; */}
-  const updateUser = async (userId, updatedData) => {
-    if (!isPassword(password, password2)) {
-      const userDoc = doc(db, 'users', userId);
-  await updateDoc(userDoc, updatedData);
-    }
-};
   
 
   {/* 타이머 */}
@@ -428,15 +422,18 @@ const handleClick = () => {
     }
   };
 
+
+{/* 업뎃유저 비밀번호 일치 확인 */}
   const isPassword = (value1, value2) => {
     return value1 === value2;
   };
 
-  const handleFormSubmit = () => {
-    if (!isPassword(password, password2)) {
-      alert('모든 항목을 제대로 입력해주십시오');
+  const updateUser = async (userId, updatedData) => {
+    if (isPassword(password, password2)) {
+      const userDoc = doc(db, 'users', userId);
+  await updateDoc(userDoc, updatedData);
     }
-  };
+};
 
 
   return(
