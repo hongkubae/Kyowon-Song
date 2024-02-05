@@ -2,6 +2,7 @@
 
 import React, {useState} from 'react';
 import { TouchableOpacity, TextInput, Image, Text, ScrollView, View, Button, StyleSheet } from 'react-native';
+import { addBookmark, getBookmarkedRecipes } from './recipeFunctions';
 
 const data = [
   { id: 1, food: '부대찌개', time: 130},
