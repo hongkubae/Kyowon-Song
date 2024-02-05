@@ -54,16 +54,6 @@ const onSubmit = async (event) => {
     }
   };
 
-  const onSignIn = async () => { // 로그인 함수
-    const {user} = await signIn({email, password});
-    try {
-      const {user} = await signIn(info);
-      
-    } catch (e) {
-      console.log("일치하는 이메일 혹은 비밀번호가 없습니다.");
-    }
-  };
-
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Truffle</Text>
