@@ -6,7 +6,7 @@ import {
   View,
   TouchableOpacity,
   TextInput,
-  StyleSheet, 
+  StyleSheet, Email
 } from 'react-native';
 
 import Eye from './components/AssetExample';
@@ -30,27 +30,57 @@ export default App; */
 
 function Loginpg({ navigation }) {
 const [text, onChangeText] = React.useState('');
+const [password, setPassword] = useState('');
+const [email, setEmail] = useState('');
+
+const handlePasswordChange = (value) => {
+    setPassword(value);
+  };
+  const handleEmailChange = (val) => {
+    setEmail(val);
+  };
+
+
+const onSubmit = async (event) => {
+    event.preventDefault();
+    try {
+      if (newAccount) {
+        await authService.createUserWithEmailAndPassword(email, password);
+      } else {
+        await authService.signInWithEmailAndPassword(email, password);
+      }
+    } catch (error) {
+      console.error('Authentication error:', error);
+    }
+  };
+
+  const onSignIn = async () => { // 로그인 함수
+    const {user} = await signIn({email, password});
+    try {
+      const {user} = await signIn(info);
+      
+    } catch (e) {
+      console.log("일치하는 이메일 혹은 비밀번호가 없습니다.");
+    }
+  };
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Truffle</Text>
       <TextInput
         style={styles.input}
-        onChangeText={onChangeText}
-        value={text}
+        val={email}
+        onChangeText={handleEmailChange}
         placeholder="이메일"
         keyboardType="email"
       />
       <TextInput
         style={styles.input}
-        onChangeText={onChangeText}
-        value={text}
+        value={password}
+        onChangeText={handlePasswordChange}
         placeholder="비밀번호"
         keyboardType="email"
       />
-      <TouchableOpacity
-        style={styles.save}
-        onPress={() => navigation.navigate('Visible')}></TouchableOpacity>
 
         {/* 비밀번호나 이메일 안맞았을떄-- 버튼누르고 체크후 띄울수 있게 어떻게하지 */}
 <Text style={{bottom: 20, fontSize: 12,
@@ -61,18 +91,18 @@ const [text, onChangeText] = React.useState('');
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Budgetpg')}>
+        onPress={onSubmit}>
         <Text style={styles.buttonText}>로그인</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.signUp}
         onPress={() => navigation.navigate('SignUp')}>
-        <Text style={styles.saveTxt}>회원가입></Text>
+        <Text style={styles.saveTxt}>회원가입</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.reset}
         onPress={() => navigation.ForgotPW()}>
-        <Text style={styles.saveTxt}>비밀번호 재설정></Text>
+        <Text style={styles.saveTxt}>비밀번호 재설정</Text>
       </TouchableOpacity>
     </View>
   );
@@ -80,6 +110,13 @@ const [text, onChangeText] = React.useState('');
 
 function Budgetpg() {
   const [text, onChangeText] = React.useState('');
+
+  const updateUser = async (userId, updatedData) => {
+  const userDoc = doc(db, 'users', userId);
+  await updateDoc(userDoc, updatedData);
+};
+
+
   return (
     <View style={styles.container}>
       <TouchableOpacity
@@ -95,14 +132,14 @@ function Budgetpg() {
       <TextInput
         style={styles.input}
         onChangeText={onChangeText}
-        value={text}
+        updatedData={text}
         placeholder="300,000원"
         keyboardType="numeric"
       />
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Login')}>
+        onPress={updateUser}>
         <Text style={styles.buttonText}>시작하기</Text>
       </TouchableOpacity>
     </View>
@@ -115,7 +152,13 @@ function SignupPg() {
   const { useState } = React;
 {/* catch 오류문구 */}
 const [validation, setValidation] = useState("");
-  {/* async try-catch 추가해야함 */}
+
+const addUser = async (userData) => {
+  const usersCollection = collection(db, 'users');
+  await addDoc(usersCollection, userData);
+};
+
+
 
   const [password, setPassword] = useState('');
   const [password2, setPassword2] = useState('');
@@ -129,7 +172,7 @@ const validateEmail = email => {
     const regex = /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/;
     return regex.test(email);
 }
-const handleEmailChange = (val) => {
+  const handleEmailChange = (val) => {
     setEmail(val);
 
     if (val && !validateEmail(val)) {
@@ -221,6 +264,7 @@ const handleEmailChange = (val) => {
 
       <TouchableOpacity
         style={styles.buttonS}
+        onPress={addUser}
         >
         <Text style={styles.buttonText}>회원가입</Text>
       </TouchableOpacity>
@@ -281,7 +325,13 @@ const handleClick = () => {
       setIsClicked(true); // true일 땐 변경될 이미지 src
     }
 }; */}
-
+  const updateUser = async (userId, updatedData) => {
+    if (!isPassword(password, password2)) {
+      const userDoc = doc(db, 'users', userId);
+  await updateDoc(userDoc, updatedData);
+    }
+};
+  
 
   {/* 타이머 */}
     const initialTime = 540;
@@ -310,7 +360,7 @@ const handleClick = () => {
         return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
     };
 
-    const handleStartTimer = () => {
+    const handleStartTimer = () => {{/* 인증번호 발송 눌렸을때 이메일 존재여부 확인 후 있으면 타이머 실행, 없으면 오류문 띄우기 */}
         setIsTimerRunning(true);
         setIsStartButtonDisabled(true);
         setIsStopButtonDisabled(false);
@@ -339,6 +389,18 @@ const handleClick = () => {
   const [password2, setPassword2] = useState('');
   const [passwordContent, setPasswordContent] = useState('');
   const [passwordContent1, setPasswordContent1] = useState('');
+  const [email, setEmail] = useState('');
+{/* onChangeText시 */}
+  const handleEmailChange = (val) => {
+    setEmail(val);
+
+    if (val && !validateEmail(val)) {
+      setEmailContent('허용되지 않는 이메일 형식입니다.');
+    } 
+    else {
+      setEmailContent('');
+    }
+  };
 
   const reg = /^(?=.*[a-zA-Z])(?=.*[\W_])(?=.*[!@#$%^*+=-])(?=.*[0-9]).{8,15}$/;
 
@@ -346,20 +408,20 @@ const handleClick = () => {
     return reg.test(password);
   };
 
-  const handlePasswordChange = (value) => {
-    setPassword(value);
+  const handlePasswordChange = (updatedData) => {
+    setPassword(updatedData);
 
-    if (value && !pwCondition(value)) {
+    if (updatedData && !pwCondition(updatedData)) {
       setPasswordContent1('8-15자 이내의 영문, 숫자, 특수문자를 조합해주세요.');
     } else {
       setPasswordContent1('');
     }
   };
 
-  const handlePassword2Change = (value) => {
-    setPassword2(value);
+  const handlePassword2Change = (updatedData) => {
+    setPassword2(updatedData);
 
-    if (password !== value) {
+    if (password !== updatedData) {
       setPasswordContent('비밀번호가 일치하지 않습니다');
     } else {
       setPasswordContent('');
@@ -392,7 +454,7 @@ const handleClick = () => {
       <TextInput
         style={styles.inputP}
         onChangeText={onChangeText}
-        value={text}
+        val={email}
         placeholder="이메일"
         keyboardType="email"
       />
@@ -411,6 +473,7 @@ const handleClick = () => {
       <TextInput
         style={styles.inputRe}   
     placeholder="인증번호"
+    onChangeText={onChangeText}
         keyboardType="numeric"
       />
     
@@ -433,7 +496,7 @@ const handleClick = () => {
       <TextInput
         style={styles.inputP}
         setPassword={setPassword}
-        value={password}
+        updatedData={password}
         placeholder="비밀번호"
         keyboardType="email"
         secureTextEntry={true}
@@ -450,14 +513,14 @@ const handleClick = () => {
         placeholder="비밀번호 확인"
         keyboardType="email"
         secureTextEntry={true}
-          value={password2}
+          updatedData={password2}
           onChangeText={handlePassword2Change}
       />
       <Text style={styles.passwordContent}>{passwordContent}</Text>
 
       <TouchableOpacity
         style={styles.buttonP}
-        onPress={() => navigation.navigate('Login')}>
+        onPress={updateUser}>
         <Text style={styles.buttonText} type="submit">비밀번호 변경</Text>
       </TouchableOpacity>
      
@@ -650,7 +713,4 @@ const styles = StyleSheet.create({
 });
 
 
-export default SignupPg;
-
-
-export default ForgotPW;
+export default Loginpg;
