@@ -16,7 +16,7 @@ function Budgetpg() {
 
 {/* updateUser()들 Budget page랑 ForgotPW랑 각각 다름 */}
   const updateUser = async (userId, updatedData) => {
-    if (budget=="") {
+    if (budget!=="") {
       const userDoc = doc(db, 'users', userId);
   await updateDoc(userDoc, updatedData);
     }
