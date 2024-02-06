@@ -127,6 +127,11 @@ const styles = StyleSheet.create({
   backBTN: {
     fontSize: 25,
   },
+  errTxt: {
+    top: 100,
+    fontSize: 12,
+    color: '#ff0000',
+  },
 })
 
 export default Budgetpg;
