@@ -14,6 +14,7 @@ import Eye from "./components/AssetExample";
 import { authService } from '../app/firebaseConfig';
 
 
+
 {/*비밀번호 재설정 */}
 function ForgotPW() {
 
@@ -58,11 +59,21 @@ const handleClick = () => {
         return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
     };
 
+
     const handleStartTimer = () => {{/* 인증번호 발송 눌렸을때 이메일 존재여부 확인 후 있으면 타이머 실행, 없으면 오류문 띄우기 */}
-        setIsTimerRunning(true);
+
+    {/* 존재하지않는 이메일 체크해주는 코드부분이 정확히 어떤건지 물어보기 */}
+    if (password=="") {
+      
+      setEmailContent('존재하지 않는 이메일입니다.');
+    } 
+    else {
+      setEmailContent('');
+      setIsTimerRunning(true);
         setIsStartButtonDisabled(true);
         setIsStopButtonDisabled(false);
         setIsResendButtonDisabled(false);
+    }
     };
 
     const handleStopTimer = () => {
@@ -88,16 +99,13 @@ const handleClick = () => {
   const [passwordContent, setPasswordContent] = useState('');
   const [passwordContent1, setPasswordContent1] = useState('');
   const [email, setEmail] = useState('');
+  const [emailContent, setEmailContent] = useState('');
+
 {/* onChangeText시 */}
   const handleEmailChange = (val) => {
     setEmail(val);
 
-    if (val && !validateEmail(val)) {
-      setEmailContent('허용되지 않는 이메일 형식입니다.');
-    } 
-    else {
-      setEmailContent('');
-    }
+{/* login()이 true/false 값으로 나오거나 else문 내용 전달: 어떤 내용이 들어가야하지 ? !login() */}
   };
 
   const reg = /^(?=.*[a-zA-Z])(?=.*[\W_])(?=.*[!@#$%^*+=-])(?=.*[0-9]).{8,15}$/;
@@ -118,12 +126,6 @@ const handleClick = () => {
 
   const handlePassword2Change = (updatedData) => {
     setPassword2(updatedData);
-
-    if (password !== updatedData) {
-      setPasswordContent('비밀번호가 일치하지 않습니다');
-    } else {
-      setPasswordContent('');
-    }
   };
 
 
@@ -154,11 +156,17 @@ const handleClick = () => {
       
       <TextInput
         style={styles.inputP}
-        onChangeText={onChangeText}
         val={email}
+          onChangeText={handleEmailChange}
         placeholder="이메일"
         keyboardType="email"
       />
+      <Text style={{
+        top: 50,
+    fontSize: 12,
+    color: '#ff0000'}}>{emailContent}</Text>
+
+
       <TouchableOpacity
         style={[styles.midButton, {backgroundColor: isStartButtonDisabled ? '#CCCCCC' : '#FEA655'} ]}
         onPress={handleStartTimer} 
@@ -180,7 +188,7 @@ const handleClick = () => {
     
 
 {/* 타이머 */}
-<Text style={{ color: 'purple', position: 'absolute', top: 275, paddingLeft: 30}}>{formatTime(remainingTime)}</Text>
+<Text style={{ color: 'purple', position: 'absolute', top: 290, paddingLeft: 30}}>{formatTime(remainingTime)}</Text>
 
 
       <TouchableOpacity
