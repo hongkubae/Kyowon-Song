@@ -8,28 +8,13 @@ import {
   TextInput,
   StyleSheet, 
 } from 'react-native';
-
-import Eye from "./components/AssetExample";
-
 import { authService } from '../app/firebaseConfig';
+import { updateUser } from './dbFunctions';
 
 
 
 {/*비밀번호 재설정 */}
 function ForgotPW() {
-
-{/*const [imageSrc, setImageSrc] = useState("https://via.placeholder.com/118x66"); // 초기 상태는 선택이 되지 않은 상태를 나타내기 위함
-const [isClicked, setIsClicked] = useState(false);
-
-const handleClick = () => {
-  if (isClicked) {
-    setImageSrc("https://via.placeholder.com/118x66");
-      setIsClicked(false); // 초기 상태 false 일 땐 초기 상태 이미지 src
-    } else {
-      setImageSrc("https://via.placeholder.com/118x66");
-      setIsClicked(true); // true일 땐 변경될 이미지 src
-    }
-}; */}
   
 
   {/* 타이머 */}
