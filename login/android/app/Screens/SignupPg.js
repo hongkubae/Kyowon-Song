@@ -204,6 +204,11 @@ backBTN: {
   marginLeft:-140,
   marginTop:11,
 },
+  errTxt: {
+    top: 100,
+    fontSize: 12,
+    color: '#ff0000',
+  },
 })
 
 export default SignupPg;
