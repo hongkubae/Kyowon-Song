@@ -8,9 +8,8 @@ import {
   TextInput,
   StyleSheet, 
 } from 'react-native';
-import Eye from "../assets/icons/Eye";
-import TruffleLogo from "../assets/logo/TruffleLogo";
-//import useAuth from '../BackFunc/AuthFunc';
+import { onSubmit } from './authFunctions';
+
 
 function Loginpg({ navigation }) {
 const [password, setPassword] = useState('');
