@@ -81,10 +81,6 @@ const validateEmail = email => {
     }
   };
 
-  const isPassword = (value1, value2) => {
-    return value1 === value2;
-  };
-
 
   return(
     <View style={styles.container}>
@@ -143,6 +139,7 @@ const validateEmail = email => {
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   topTitle: {
