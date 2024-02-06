@@ -9,13 +9,25 @@ import {
   StyleSheet, 
 } from 'react-native';
 
-function Budgetpg({navigation}) {
-  const [text, onChangeText] = React.useState('');
+
+
+function Budgetpg() {
+  const [budget, onChangeBudget] = React.useState('');
+
+{/* updateUser()들 Budget page랑 ForgotPW랑 각각 다름 */}
+  const updateUser = async (userId, updatedData) => {
+    if (budget=="") {
+      const userDoc = doc(db, 'users', userId);
+  await updateDoc(userDoc, updatedData);
+    }
+};
+
+
   return (
     <View style={styles.container}>
       <TouchableOpacity
         style={styles.back}
-        onPress={() =>  navigation.goBack()}>
+        onPress={() => navigation.navigate('Back')}>
         <Text style={styles.backBTN}> ⟨ </Text>
       </TouchableOpacity>
 
@@ -25,15 +37,15 @@ function Budgetpg({navigation}) {
       </Text>
       <TextInput
         style={styles.input}
-        onChangeText={onChangeText}
-        value={text}
+        onChangeText={onChangeBudget}
+        updatedData={budget}
         placeholder="300,000원"
         keyboardType="numeric"
       />
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Login')}>
+        onPress={updateUser}>
         <Text style={styles.buttonText}>시작하기</Text>
       </TouchableOpacity>
     </View>
