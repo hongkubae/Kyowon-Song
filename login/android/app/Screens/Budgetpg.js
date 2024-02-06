@@ -8,7 +8,7 @@ import {
   TextInput,
   StyleSheet, 
 } from 'react-native';
-
+import { updateUser } from './dbFunctions';
 
 
 function Budgetpg() {
