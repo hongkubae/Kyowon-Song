@@ -9,6 +9,7 @@ import {
   StyleSheet, 
 } from 'react-native';
 import { authService } from "../app/firebaseConfig";
+import { addUser } from './dpFunctions';
 
 
 function SignupPg() {
