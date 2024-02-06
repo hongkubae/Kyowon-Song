@@ -10,15 +10,24 @@ import {
 } from 'react-native';
 import { authService } from "../app/firebaseConfig";
 
+
 function SignupPg() {
 
   const { useState } = React;
+
 {/* catch 오류문구 */}
 const [validation, setValidation] = useState("");
 
+
+{/* try-catch로 수정했는데 맞는지 불확실: 이미 존재하는 이메일인지 체크해야함-- 아님 login()이랑 합쳐야할듯? */}
 const addUser = async (userData) => {
+try{
   const usersCollection = collection(db, 'users');
   await addDoc(usersCollection, userData);
+} catch (error) {
+  setValidation('이미 존재하는 이메일입니다.');
+}
+
 };
 
 
@@ -76,12 +85,6 @@ const validateEmail = email => {
     return value1 === value2;
   };
 
-  const handleFormSubmit = () => {
-    if (!isPassword(password, password2)) {
-      alert('모든 항목을 제대로 입력해주십시오');
-    }
-  };
-
 
   return(
     <View style={styles.container}>
@@ -102,8 +105,9 @@ const validateEmail = email => {
       />
 
 <Text style={styles.errTxt}>{validation}</Text>
-    {/* 위가 catch에서 오류보내면 들어가는 부분. 아래 텍스트 박스는 함수추가되면 지울것. */}
-    <Text style={styles.errTxt}>{emailContent}</Text>
+    <Text style={{top: 232,
+    fontSize: 12,
+    color: '#ff0000', position: 'absolute'}}>{emailContent}</Text>
       <TextInput
         style={styles.inputS}
         setPassword={setPassword}
@@ -136,37 +140,6 @@ const validateEmail = email => {
         onPress={() => navigation.navigate('Reset')}>
         <Text style={styles.saveTxt}>이미 계정이 있나요?  로그인하기</Text>
       </TouchableOpacity>
-    </View>
-  );
-}
-
-function SuccessLogin () {
-  return (
-    <View style={styles.container}>
-    
-      <Text style={styles.title}>Truffle</Text>
-      <Text style={styles.center}>축하드립니다 !{"\n"}회원가입이 완료되었습니다.</Text>
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => navigation.navigate('Login')}>
-        <Text style={styles.buttonText}>로그인</Text>
-      </TouchableOpacity>
-      
-    </View>
-  );
-}
-
-function SuccessPW () {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Truffle</Text>
-      <Text style={styles.center}>비밀번호 변경이 완료되었습니다.</Text>
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => navigation.navigate('Login')}>
-        <Text style={styles.buttonText}>로그인</Text>
-      </TouchableOpacity>
-      
     </View>
   );
 }
