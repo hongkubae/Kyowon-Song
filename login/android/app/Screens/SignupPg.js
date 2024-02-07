@@ -21,15 +21,17 @@ const [validation, setValidation] = useState("");
 
 
 {/* try-catch로 수정했는데 맞는지 불확실: 이미 존재하는 이메일인지 체크해야함-- 아님 login()이랑 합쳐야할듯? */}
-const addUser = async (userData) => {
-try{
-  const usersCollection = collection(db, 'users');
-  await addDoc(usersCollection, userData);
-} catch (error) {
-  setValidation('이미 존재하는 이메일입니다.');
-}
+  const handleEmailChange = async (event) => {
+    event.preventDefault();
+    try {
+        const usersCollection = collection(db, 'users');
+        await addDoc(usersCollection, userData);
+        await authService.createUserWithEmailAndPassword(email, password);
+    } catch (error) {
+      console.error('이미 존재하는 이메일입니다.', error);
+    }
+  };
 
-};
 
 
 
