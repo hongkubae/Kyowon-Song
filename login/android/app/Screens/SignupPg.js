@@ -21,7 +21,7 @@ const [validation, setValidation] = useState("");
 
 
 {/* try-catch로 수정했는데 맞는지 불확실: 이미 존재하는 이메일인지 체크해야함-- 아님 login()이랑 합쳐야할듯? */}
-  const handleEmailChange = async (event) => {
+  const handleUserInfoChange = async (event) => {
     event.preventDefault();
     try {
       const { email, password } = user;
@@ -131,7 +131,7 @@ const validateEmail = email => {
 
       <TouchableOpacity
         style={styles.buttonS}
-        onPress={addUser}
+        onPress={handleUserInfoChange}
         >
         <Text style={styles.buttonText}>회원가입</Text>
       </TouchableOpacity>
