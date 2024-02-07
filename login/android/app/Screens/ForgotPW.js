@@ -15,6 +15,19 @@ import { updateUser } from './dbFunctions';
 
 {/*비밀번호 재설정 */}
 function ForgotPW() {
+
+{/*const [imageSrc, setImageSrc] = useState("https://via.placeholder.com/118x66"); // 초기 상태는 선택이 되지 않은 상태를 나타내기 위함
+const [isClicked, setIsClicked] = useState(false);
+
+const handleClick = () => {
+  if (isClicked) {
+    setImageSrc("https://via.placeholder.com/118x66");
+      setIsClicked(false); // 초기 상태 false 일 땐 초기 상태 이미지 src
+    } else {
+      setImageSrc("https://via.placeholder.com/118x66");
+      setIsClicked(true); // true일 땐 변경될 이미지 src
+    }
+}; */}
   
 
   {/* 타이머 */}
@@ -24,6 +37,27 @@ function ForgotPW() {
     const [isStartButtonDisabled, setIsStartButtonDisabled] = useState(false);
     const [isStopButtonDisabled, setIsStopButtonDisabled] = useState(true);
     const [isResendButtonDisabled, setIsResendButtonDisabled] = useState(true);
+    const [isButtonPressed, setIsButtonPressed] = useState(false);
+
+    {/*조건문 useState */}
+
+  const [num, setNum] = useState('');
+  const [password, setPassword] = useState('');
+  const [password2, setPassword2] = useState('');
+  const [passwordContent, setPasswordContent] = useState('');
+  const [passwordContent1, setPasswordContent1] = useState('');
+  const [email, setEmail] = useState('');
+  {/*
+  const [isSecondButtonPressed, setIsSecondButtonPressed] = useState(false);
+  
+  const handleEmailChange = (val) => {
+    setEmail(val);
+    setIsSecondButtonPressed(val === '');
+  };
+  const handleNumChange = (value) => {
+    setNum(value);
+  }; */}
+
 
     useEffect(() => {
         let timer;
@@ -47,21 +81,15 @@ function ForgotPW() {
 
     const handleStartTimer = () => {{/* 인증번호 발송 눌렸을때 이메일 존재여부 확인 후 있으면 타이머 실행, 없으면 오류문 띄우기 */}
 
-    {/* 존재하지않는 이메일 체크해주는 코드부분이 정확히 어떤건지 물어보기 */}
-    if (password=="") {
       
-      setEmailContent('존재하지 않는 이메일입니다.');
-    } 
-    else {
-      setEmailContent('');
       setIsTimerRunning(true);
         setIsStartButtonDisabled(true);
         setIsStopButtonDisabled(false);
         setIsResendButtonDisabled(false);
-    }
     };
 
     const handleStopTimer = () => {
+        setIsButtonPressed(true);
         setIsTimerRunning(false);
         setIsStopButtonDisabled(true);
         setIsResendButtonDisabled(true);
@@ -76,22 +104,10 @@ function ForgotPW() {
         
     };
 
-  {/*조건문 useState */}
 
-  const [text, onChangeText] = useState('');
-  const [password, setPassword] = useState('');
-  const [password2, setPassword2] = useState('');
-  const [passwordContent, setPasswordContent] = useState('');
-  const [passwordContent1, setPasswordContent1] = useState('');
-  const [email, setEmail] = useState('');
-  const [emailContent, setEmailContent] = useState('');
 
 {/* onChangeText시 */}
-  const handleEmailChange = (val) => {
-    setEmail(val);
 
-{/* login()이 true/false 값으로 나오거나 else문 내용 전달: 어떤 내용이 들어가야하지 ? !login() */}
-  };
 
   const reg = /^(?=.*[a-zA-Z])(?=.*[\W_])(?=.*[!@#$%^*+=-])(?=.*[0-9]).{8,15}$/;
 
@@ -109,8 +125,14 @@ function ForgotPW() {
     }
   };
 
-  const handlePassword2Change = (updatedData) => {
-    setPassword2(updatedData);
+  const handlePassword2Change = (value) => {
+    setPassword2(value);
+
+    if (password !== value) {
+      setPasswordContent('비밀번호가 일치하지 않습니다');
+    } else {
+      setPasswordContent('');
+    }
   };
 
 
@@ -145,17 +167,16 @@ function ForgotPW() {
           onChangeText={handleEmailChange}
         placeholder="이메일"
         keyboardType="email"
+        editable={!isButtonPressed}
       />
-      <Text style={{
-        top: 50,
-    fontSize: 12,
-    color: '#ff0000'}}>{emailContent}</Text>
+
 
 
       <TouchableOpacity
         style={[styles.midButton, {backgroundColor: isStartButtonDisabled ? '#CCCCCC' : '#FEA655'} ]}
         onPress={handleStartTimer} 
-                disabled={isStartButtonDisabled}> 
+                disabled={isStartButtonDisabled && isSecondButtonPressed}> 
+                
         <Text style={styles.buttonText}>인증번호 발송</Text>
       </TouchableOpacity>
       <TouchableOpacity
@@ -167,13 +188,15 @@ function ForgotPW() {
       <TextInput
         style={styles.inputRe}   
     placeholder="인증번호"
-    onChangeText={onChangeText}
+    value={num}
+    onChangeText={handleNumChange}
         keyboardType="numeric"
+        editable={!isButtonPressed}
       />
     
 
 {/* 타이머 */}
-<Text style={{ color: 'purple', position: 'absolute', top: 290, paddingLeft: 30}}>{formatTime(remainingTime)}</Text>
+<Text style={{ color: 'purple', position: 'absolute', top: 275, paddingLeft: 30}}>{formatTime(remainingTime)}</Text>
 
 
       <TouchableOpacity
