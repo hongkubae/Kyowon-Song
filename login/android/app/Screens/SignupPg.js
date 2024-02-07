@@ -24,6 +24,7 @@ const [validation, setValidation] = useState("");
   const handleEmailChange = async (event) => {
     event.preventDefault();
     try {
+      const { email, password } = user;
       await authService.createUserWithEmailAndPassword(email, password);
       const usersCollection = collection(db, 'users');
       await addDoc(usersCollection, userData);
