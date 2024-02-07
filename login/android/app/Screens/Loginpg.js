@@ -11,7 +11,7 @@ import {
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-import { onSubmit } from './authFunctions';
+//import { onSubmit } from './authFunctions';
 import { authService } from './firebaseConfig';
 
 
