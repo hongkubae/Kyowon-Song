@@ -16,8 +16,6 @@ import { addUser } from './dpFunctions';
 
 function SignupPg() {
 
-  const { useState } = React;
-
 {/* catch 오류문구 */}
 const [validation, setValidation] = useState("");
 
