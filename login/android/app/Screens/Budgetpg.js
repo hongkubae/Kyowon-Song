@@ -1,3 +1,5 @@
+{/* - 교원 task: textinput diable, budgetpg 금액 쉼표, 로그인 정보 저장 (id/email,password) */}
+
 import React, { useState, useEffect } from 'react';
 import {
   NavigationContainer,
