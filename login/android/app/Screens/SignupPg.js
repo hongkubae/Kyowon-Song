@@ -24,9 +24,9 @@ const [validation, setValidation] = useState("");
   const handleEmailChange = async (event) => {
     event.preventDefault();
     try {
-        const usersCollection = collection(db, 'users');
-        await addDoc(usersCollection, userData);
-        await authService.createUserWithEmailAndPassword(email, password);
+      await authService.createUserWithEmailAndPassword(email, password);
+      const usersCollection = collection(db, 'users');
+      await addDoc(usersCollection, userData);
     } catch (error) {
       console.error('이미 존재하는 이메일입니다.', error);
     }
