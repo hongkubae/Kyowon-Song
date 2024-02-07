@@ -22,7 +22,6 @@ const [validation, setValidation] = useState("");
 {/* try-catch로 수정했는데 맞는지 불확실: 이미 존재하는 이메일인지 체크해야함-- 아님 login()이랑 합쳐야할듯? */}
   const handleUserInfoChange = async () => {
     try {
-      const { email, password } = user;
       const querySnapshot = await getDocs(collection(db, 'users'));
       const existingEmail = querySnapshot.docs.some(doc => doc.data().email === email);
       if (existingEmail) {
