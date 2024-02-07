@@ -47,7 +47,7 @@ const handleClick = () => {
   const [passwordContent, setPasswordContent] = useState('');
   const [passwordContent1, setPasswordContent1] = useState('');
   const [email, setEmail] = useState('');
-  {/*
+  
   const [isSecondButtonPressed, setIsSecondButtonPressed] = useState(false);
   
   const handleEmailChange = (val) => {
@@ -56,7 +56,7 @@ const handleClick = () => {
   };
   const handleNumChange = (value) => {
     setNum(value);
-  }; */}
+  };
 
 
     useEffect(() => {
