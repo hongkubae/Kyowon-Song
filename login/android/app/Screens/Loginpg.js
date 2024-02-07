@@ -51,11 +51,15 @@ const handlePasswordChange = (value) => {
     }
   };
 
+{/* 로그인정보 버튼 */}
    const [isPressed, setIsPressed] = useState(false);
 
   const toggleRememberMe = () => {
-    setIsPressed(true);
-    setRememberMe(!rememberMe);
+    setIsPressed((prevIsRed) => !prevIsRed);
+    if(isPressed){
+      setRememberMe(!rememberMe);
+    }
+    
   };
 
 
@@ -112,7 +116,7 @@ const onSubmit = async (event) => {
 
       <TouchableOpacity
         style={[styles.save, {backgroundColor: isPressed ? '#FEA655' : '#ccc'} ]} 
-        onPress={toggleRememberMe} >
+        onPress={toggleRememberMe}> 
       </TouchableOpacity>
     <Text style={{ fontSize: 12,
     color: '#757575', bottom: 23, right: 50 }}>로그인 정보 저장</Text>
@@ -135,7 +139,6 @@ const onSubmit = async (event) => {
     </View>
   );
 }
-
 
 const styles = StyleSheet.create({
   container: {
