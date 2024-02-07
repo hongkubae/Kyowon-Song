@@ -16,7 +16,8 @@ function Loginpg({ navigation }) {
 const [password, setPassword] = useState('');
 const [email, setEmail] = useState('');
 const [validation, setValidation] = useState("");
-
+const isLoggedIn = useAuth();
+  
 const handlePasswordChange = (value) => {
     setPassword(value);
   };
