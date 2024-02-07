@@ -11,7 +11,6 @@ import {
 import { collection, getDocs, addDoc, updateDoc, doc, deleteDoc } from 'firebase/firestore';
 import { db } from './firebaseConfig';
 import { authService } from "../app/firebaseConfig";
-import { addUser } from './dpFunctions';
 
 
 function SignupPg() {
