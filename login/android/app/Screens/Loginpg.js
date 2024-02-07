@@ -9,6 +9,7 @@ import {
   StyleSheet, 
 } from 'react-native';
 import { onSubmit } from './authFunctions';
+import { authService } from './firebaseConfig';
 
 
 function Loginpg({ navigation }) {
