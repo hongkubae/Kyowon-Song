@@ -1,4 +1,4 @@
-{/* - 교원 task: textinput diable, budgetpg 금액 쉼표, 로그인 정보 저장 (id/email,password) */}
+{/* - 교원 task: textinput diable, 로그인 정보 저장 (id/email,password) */}
 
 import React, { useState, useEffect } from 'react';
 import {
@@ -15,8 +15,15 @@ import { db } from './firebaseConfig';
 import { updateUser } from './dbFunctions';
 
 
+
 function Budgetpg() {
-  const [budget, onChangeBudget] = React.useState('');
+  const [budget, onChangeBudget] = useState('');
+
+  const changeBudget = (value: string) => {
+    const removedCommaValue: number = Number(value.replace(/,/g, ''));
+    onChangeBudget(removedCommaValue.toLocaleString());
+  };
+
 
 {/* updateUser()들 Budget page랑 ForgotPW랑 각각 다름 */}
   const updateUser = async (userId, updatedData) => {
@@ -41,8 +48,8 @@ function Budgetpg() {
       </Text>
       <TextInput
         style={styles.input}
-        onChangeText={onChangeBudget}
-        updatedData={budget}
+        value={budget}
+        onChangeText={changeBudget}
         placeholder="300,000원"
         keyboardType="numeric"
       />
@@ -55,7 +62,6 @@ function Budgetpg() {
     </View>
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
