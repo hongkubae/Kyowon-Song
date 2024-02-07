@@ -13,7 +13,7 @@ import { db } from './firebaseConfig';
 import { authService } from "../app/firebaseConfig";
 
 
-function SignupPg() {
+function SignupPg({ navigation }) {
 
 {/* catch 오류문구 */}
 const [validation, setValidation] = useState("");
